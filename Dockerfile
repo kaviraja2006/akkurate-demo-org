@@ -36,8 +36,8 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN composer install --no-dev --optimize-autoloader --no-scripts --no-progress --ignore-platform-reqs
 
 # Re-run scripts (which cache clear & assets install)
-# Setup a dummy .env file so Symfony's dotenv component doesn't crash during build
-RUN touch .env && APP_ENV=prod composer run-script post-install-cmd
+# Setup a dummy .env file and environment variables so Symfony's dotenv component and cache clear doesn't crash during build
+RUN touch .env && APP_ENV=prod DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name" composer run-script post-install-cmd
 
 # Set appropriate permissions for the var folder inside Symfony
 RUN chown -R www-data:www-data /var/www/html/var /var/www/html/public
