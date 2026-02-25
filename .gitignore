@@ -13,6 +13,11 @@
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
+.env
+.env.*
+!.env.example
+
+
 node_modules/
 .DS_Store
 *.log
