@@ -1,0 +1,11 @@
+/* About Six Css start */
+.about-six-image {
+    @media (min-width: 992px) {
+        position: absolute;
+        inset-inline-end: 52%;
+        inset-block-start: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/* About Six Css end */

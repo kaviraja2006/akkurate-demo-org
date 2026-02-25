@@ -1,0 +1,13 @@
+/* Service Six Css start */
+.section-box {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-inline: 24px;
+    padding-inline: 8px;
+
+    @media (min-width: 1200px) {
+        margin-inline: 40px;
+        padding-inline: 24px;
+    }
+}
+/* Service Six Css end */

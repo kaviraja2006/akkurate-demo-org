@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en" class="heading-black">
+
+<head>
+    {{ include('partials/title-meta.html.twig') }}
+
+    {{ include('partials/head-css.html.twig') }}
+</head>
+
+<body>
+
+    {{ include('partials/common-content.html.twig') }}
+
+    <div id="smooth-wrapper">
+        <!-- ==================== Header Two Start Here ==================== -->
+        <header
+            class="header home-two-header py-0 top-0 tw-start-0 tw-end-0 w-100 tw-z-99 tw-mt-9 position-absolute header-inner-page">
+            <div class="container">
+                <div
+                    class="header-box-inner py-2 py-lg-0 tw-gap-4 tw-lg-ps-12 tw-ps-6 tw-pe-705 bg-white transition-all tw-rounded-lg">
+                    <nav class="d-flex align-items-center justify-content-between position-relative">
+                        <!-- Logo Start -->
+                        <div class="logo">
+                            <a class="link hover--translate-y-1 active--translate-y-scale-9" href="/">
+                                <img alt="Logo" class="max-w-200-px" src="/images/logo/logo-four.png" />
+                            </a>
+                        </div>
+                        <!-- Logo End  -->
+                        <!-- Menu Start  -->
+                        <div class="header-menu d-lg-block d-none">
+                            <!-- Nav menu Three Start -->
+                            <ul class="nav-menu d-lg-flex align-items-center tw-gap-7">
+                                <li class="nav-menu__item has-submenu activePage">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Home</a>
+                                    <!-- mega menu start -->
+                                    <div
+                                        class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-z-99">
+                                        <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-xl-4">
+                                            <div class="col">
+                                                <div class="mega-menu-item group-item">
+                                                    <div
+                                                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+                                                        <a class="d-block" href="/">
+                                                            <img alt="Home Page Image"
+                                                                class="tw-h-440-px w-100 object-fit-cover object-top"
+                                                                src="/images/thumbs/home-img1.png" />
+                                                        </a>
+                                                        <div class="d-lg-flex d-none">
+                                                            <div
+                                                                class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+                                                            </div>
+                                                            <div
+                                                                class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+                                                                <a class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-705 group active--translate-y-2 tw-p-1 tw-ps-8 rounded-pill group-item"
+                                                                    data-block="button" href="/" target="_blank">
+                                                                    <span class="button__flair"></span>
+                                                                    <span class="button__label">Live Preview</span>
+                                                                    <span
+                                                                        class="tw-w-12 tw-h-12 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500">
+                                                                        <i
+                                                                            class="ph-bold ph-arrow-right tw-rotate--45-deg group-hover-item-rotate-0-deg tw-duration-300"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tw-mt-4 text-center">
+                                                        <a class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                                                            href="/">IT
+                                                            Solution</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="mega-menu-item group-item">
+                                                    <div
+                                                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+                                                        <a class="d-block" href="/index-2">
+                                                            <img alt="Home Page Image"
+                                                                class="tw-h-440-px w-100 object-fit-cover object-top"
+                                                                src="/images/thumbs/home-img2.png" />
+                                                        </a>
+                                                        <div class="d-lg-flex d-none">
+                                                            <div
+                                                                class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+                                                            </div>
+                                                            <div
+                                                                class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+                                                                <a class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-705 group active--translate-y-2 tw-p-1 tw-ps-8 rounded-pill group-item"
+                                                                    data-block="button" href="/index-2" target="_blank">
+                                                                    <span class="button__flair"></span>
+                                                                    <span class="button__label">Live Preview</span>
+                                                                    <span
+                                                                        class="tw-w-12 tw-h-12 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500">
+                                                                        <i
+                                                                            class="ph-bold ph-arrow-right tw-rotate--45-deg group-hover-item-rotate-0-deg tw-duration-300"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tw-mt-4 text-center">
+                                                        <a class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                                                            href="/index-2">Web
+                                                            Hosting</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="mega-menu-item group-item">
+                                                    <div
+                                                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+                                                        <a class="d-block" href="/index-3">
+                                                            <img alt="Home Page Image"
+                                                                class="tw-h-440-px w-100 object-fit-cover object-top"
+                                                                src="/images/thumbs/home-img3.png" />
+                                                        </a>
+                                                        <div class="d-lg-flex d-none">
+                                                            <div
+                                                                class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+                                                            </div>
+                                                            <div
+                                                                class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+                                                                <a class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-705 group active--translate-y-2 tw-p-1 tw-ps-8 rounded-pill group-item"
+                                                                    data-block="button" href="/index-3" target="_blank">
+                                                                    <span class="button__flair"></span>
+                                                                    <span class="button__label">Live Preview</span>
+                                                                    <span
+                                                                        class="tw-w-12 tw-h-12 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500">
+                                                                        <i
+                                                                            class="ph-bold ph-arrow-right tw-rotate--45-deg group-hover-item-rotate-0-deg tw-duration-300"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tw-mt-4 text-center">
+                                                        <a class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                                                            href="/index-3">Task
+                                                            Management</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="mega-menu-item group-item">
+                                                    <div
+                                                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+                                                        <a class="d-block" href="/index-4">
+                                                            <img alt="Home Page Image"
+                                                                class="tw-h-440-px w-100 object-fit-cover object-top"
+                                                                src="/images/thumbs/home-img4.png" />
+                                                        </a>
+                                                        <div class="d-lg-flex d-none">
+                                                            <div
+                                                                class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+                                                            </div>
+                                                            <div
+                                                                class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+                                                                <a class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-705 group active--translate-y-2 tw-p-1 tw-ps-8 rounded-pill group-item"
+                                                                    data-block="button" href="/index-4" target="_blank">
+                                                                    <span class="button__flair"></span>
+                                                                    <span class="button__label">Live Preview</span>
+                                                                    <span
+                                                                        class="tw-w-12 tw-h-12 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500">
+                                                                        <i
+                                                                            class="ph-bold ph-arrow-right tw-rotate--45-deg group-hover-item-rotate-0-deg tw-duration-300"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tw-mt-4 text-center">
+                                                        <a class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                                                            href="/index-4">CRM
+                                                            Software
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="mega-menu-item group-item">
+                                                    <div
+                                                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+                                                        <a class="d-block" href="/index-5">
+                                                            <img alt="Home Page Image"
+                                                                class="tw-h-440-px w-100 object-fit-cover object-top"
+                                                                src="/images/thumbs/home-img5.png" />
+                                                        </a>
+                                                        <div class="d-lg-flex d-none">
+                                                            <div
+                                                                class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+                                                            </div>
+                                                            <div
+                                                                class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+                                                                <a class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-705 group active--translate-y-2 tw-p-1 tw-ps-8 rounded-pill group-item"
+                                                                    data-block="button" href="/index-5" target="_blank">
+                                                                    <span class="button__flair"></span>
+                                                                    <span class="button__label">Live Preview</span>
+                                                                    <span
+                                                                        class="tw-w-12 tw-h-12 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500">
+                                                                        <i
+                                                                            class="ph-bold ph-arrow-right tw-rotate--45-deg group-hover-item-rotate-0-deg tw-duration-300"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tw-mt-4 text-center">
+                                                        <a class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                                                            href="/index-5">App
+                                                            Landing</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="mega-menu-item group-item">
+                                                    <div
+                                                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+                                                        <a class="d-block" href="/index-6">
+                                                            <img alt="Home Page Image"
+                                                                class="tw-h-440-px w-100 object-fit-cover object-top"
+                                                                src="/images/thumbs/home-img6.png" />
+                                                        </a>
+                                                        <div class="d-lg-flex d-none">
+                                                            <div
+                                                                class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none">
+                                                            </div>
+                                                            <div
+                                                                class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
+                                                                <a class="btn btn-main hover-style-one button--stroke active-scale-094 tw-duration-100 d-inline-flex align-items-center justify-content-center tw-gap-705 group active--translate-y-2 tw-p-1 tw-ps-8 rounded-pill group-item"
+                                                                    data-block="button" href="/index-6" target="_blank">
+                                                                    <span class="button__flair"></span>
+                                                                    <span class="button__label">Live Preview</span>
+                                                                    <span
+                                                                        class="tw-w-12 tw-h-12 bg-white text-main-600 tw-text-xl rounded-circle d-flex justify-content-center align-items-center position-relative tw-duration-500">
+                                                                        <i
+                                                                            class="ph-bold ph-arrow-right tw-rotate--45-deg group-hover-item-rotate-0-deg tw-duration-300"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tw-mt-4 text-center">
+                                                        <a class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1"
+                                                            href="/index-6">Payment
+                                                            Solution</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="mega-menu-item group-item">
+                                                    <div
+                                                        class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
+                                                        <span class="d-block">
+                                                            <img alt="Home Page Image"
+                                                                class="tw-h-440-px w-100 object-fit-cover object-top"
+                                                                src="/images/thumbs/coming-soon-img.png" />
+                                                        </span>
+                                                    </div>
+                                                    <div class="tw-mt-4 text-center">
+                                                        <span
+                                                            class="text-heading fw-semibold tw-text-md text-capitalize line-clamp-1">Home
+                                                            7</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- mega menu end -->
+                                </li>
+                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Pages</a>
+                                    <ul
+                                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/pricing-plan">
+                                                Pricing
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/about">
+                                                About Us
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/app-intigration">
+                                                App Integration
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/intigration-details">
+                                                Integration Details
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/policy-privacy">
+                                                Privacy Policy
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/faq">
+                                                FAQ
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/project-details">
+                                                Project Details
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/service-details">
+                                                Service Details
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Portfolio</a>
+                                    <ul
+                                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="javascript:void(0)">
+                                                Portfolio
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Shop</a>
+                                    <ul
+                                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/shop">
+                                                Shop
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/shop-details">
+                                                Shop Details
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/cart">
+                                                Cart
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/checkout">
+                                                Checkout
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Blog</a>
+                                    <ul
+                                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/blog">
+                                                Blog
+                                            </a>
+                                        </li>
+                                        <li
+                                            class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/blog-details">
+                                                Blog Details
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/contact">Contact</a>
+                                </li>
+                            </ul>
+                            <!-- Nav menu Three End  -->
+                        </div>
+                        <!-- Menu End  -->
+                        <!-- Header Right start -->
+                        <div class="d-flex align-items-center tw-gap-6">
+                            <div class="d-flex align-items-center tw-gap-6">
+                                <a class="d-flex align-items-center tw-gap-105 d-xl-flex d-none text-heading hover-text-main-600"
+                                    href="/login">
+                                    <span class="tw-text-base text-main-600 d-flex tw-leading-none">
+                                        <i class="ph-bold ph-user"></i>
+                                    </span>
+                                    <span class="fw-semibold tw-text-sm">Sign in</span>
+                                </a>
+                                <a class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-xxl-5 px-xl-4 px-3 tw-py-405 fw-medium tw-rounded-xl btn-main-two hover-style-two"
+                                    data-block="button" href="/register">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Get Started</span>
+                                </a>
+                            </div>
+                            <button class="toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9"
+                                type="button">
+                                <i class="ph ph-list"></i>
+                            </button>
+                        </div>
+                        <!-- Header Right End  -->
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- ==================== Header Two End Here ==================== -->
+        <div id="smooth-content">
+            <!-- ==================== Breadcrumb Start Here ==================== -->
+            <section class="breadcrumb section-bg-two mb-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="text-center">
+                                <span class="tw-mb-4">
+                                    <img alt="Favicon Two" src="/images/logo/favicon-two.png" />
+                                </span>
+                                <h1 class="mb-0 splitTextStyleOne text-capitalize"> Get In Touch</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==================== Breadcrumb End Here ==================== -->
+            <!-- ========================= Contact box section Start ============================ -->
+            <section class="bg-neutral-light-half style-two">
+                <div class="container">
+                    <div class="bg-white tw-py-9 tw-px-8">
+                        <div class="row gy-4">
+                            <div class="col-lg-4 col-sm-6">
+                                <div
+                                    class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100">
+                                    <span class="tw-mb-705">
+                                        <img alt="Icon"
+                                            class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat"
+                                            src="/images/icons/contact-icon1.svg" />
+                                    </span>
+                                    <h5
+                                        class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne">
+                                        address line</h5>
+                                    <div class="max-w-250-px mx-auto">
+                                        <p
+                                            class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne">
+                                            Bowery St, New York, 37 USA NY 10013,USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div
+                                    class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100">
+                                    <span class="tw-mb-705">
+                                        <img alt="Icon"
+                                            class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat"
+                                            src="/images/icons/contact-icon2.svg" />
+                                    </span>
+                                    <h5
+                                        class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne">
+                                        Phone Number</h5>
+                                    <div class="max-w-250-px mx-auto">
+                                        <a class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
+                                            href="tel:+125556865234374221">+1255 - 568 - 6523 4374-221</a>
+                                        <a class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne tw-mt-1"
+                                            href="tel:+12555686523">+1255 - 568 - 6523</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div
+                                    class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100">
+                                    <span class="tw-mb-705">
+                                        <img alt="Icon"
+                                            class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat"
+                                            src="/images/icons/contact-icon3.svg" />
+                                    </span>
+                                    <h5
+                                        class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne">
+                                        Mail Address</h5>
+                                    <div class="max-w-250-px mx-auto">
+                                        <a class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
+                                            href="mailto:email@example.com">email@example.com</a>
+                                        <a class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
+                                            href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================= Contact box section End ============================ -->
+            <!-- =============================== Contact Page section start =============================== -->
+            <section class="py-120">
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="col-lg-6">
+                            <div class="pe-xl-5 pe-lg-4">
+                                <div class="">
+                                    <span
+                                        class="splitTextStyleTwo tw-text-xl fw-bold fst-italic text-decoration-underline text-main-600 tw-mb-305">Get
+                                        In Touch</span>
+                                    <h3 class="splitTextStyleOne tw-mb-4">Contact Us</h3>
+                                    <p class="text-neutral-900">Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque inventore
+                                    </p>
+                                </div>
+                                <div class="xs-grid-cols-2 d-grid tw-mt-16 tw-gap-74-px">
+                                    <div class="d-flex align-items-start tw-gap-6">
+                                        <span class="tw-text-3xl text-main-600 d-flex">
+                                            <i class="ph-bold ph-map-pin"></i>
+                                        </span>
+                                        <div class="">
+                                            <h6 class="tw-mb-4">Location</h6>
+                                            <p class="text-neutral-600">55 Main street, 2nd block, Melbourne, Australia
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-start tw-gap-6">
+                                        <span class="tw-text-3xl text-main-600 d-flex">
+                                            <i class="ph-bold ph-phone"></i>
+                                        </span>
+                                        <div class="">
+                                            <h6 class="tw-mb-4">Phone</h6>
+                                            <a class="text-neutral-600 hover-text-main-600" href="tel:+1(368)5678954">+1
+                                                (368) 567 89 54</a>
+                                            <a class="text-neutral-600 hover-text-main-600 tw-mt-1"
+                                                href="tel:+236(456)89622">+236 (456) 896 22</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-start tw-gap-6">
+                                        <span class="tw-text-3xl text-main-600 d-flex">
+                                            <i class="ph-bold ph-envelope-simple"></i>
+                                        </span>
+                                        <div class="">
+                                            <h6 class="tw-mb-4">Location</h6>
+                                            <a class="text-neutral-600 hover-text-main-600"
+                                                href="mailto:wiatechinfo@gmail.com">wiatechinfo@gmail.com</a>
+                                            <a class="text-neutral-600 hover-text-main-600"
+                                                href="mailto:www.wiatech.com">www.wiatech.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-start tw-gap-6">
+                                        <span class="tw-text-3xl text-main-600 d-flex">
+                                            <i class="ph-bold ph-share-network"></i>
+                                        </span>
+                                        <div class="">
+                                            <h6 class="tw-mb-4">Social</h6>
+                                            <ul
+                                                class="d-flex align-items-center tw-gap-3 justify-content-center tw-mt-6">
+                                                <li>
+                                                    <a class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
+                                                        href="https://www.facebook.com">
+                                                        <i class="ph ph-facebook-logo"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
+                                                        href="https://www.twitter.com">
+                                                        <i class="ph ph-x-logo"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
+                                                        href="https://www.instagram.com">
+                                                        <i class="ph ph-instagram-logo"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
+                                                        href="https://www.youtube.com">
+                                                        <i class="ph ph-youtube-logo"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- map Start -->
+                                <div class="map tw-mt-15">
+                                    <iframe allowfullscreen="" class="w-100" height="240" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591642.125572935!2d-118.45027922609367!3d46.81821123121407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5343f19fafa367dd%3A0xe0a08a08122c4da1!2sHelena-Lewis%20and%20Clark%20National%20Forest!5e0!3m2!1sen!2sbd!4v1731480188813!5m2!1sen!2sbd"></iframe>
+                                </div>
+                                <!-- map End -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ps-lg-5">
+                            <div class="bg-neutral-50 tw-py-17 tw-px-705">
+                                <h4 class="tw-mb-4">Fill Up The Form</h4>
+                                <p class="text-neutral-600 max-w-444-px">Your email address will not be published.
+                                    Required
+                                    fields are marked *</p>
+                                <form action="#" class="tw-mt-70-px d-flex flex-column tw-gap-12 form-submit">
+                                    <div class="position-relative">
+                                        <input
+                                            class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600"
+                                            placeholder="Your Name*" required="" type="text" />
+                                        <span
+                                            class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0">
+                                            <i class="ph-bold ph-user"></i>
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <input
+                                            class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600"
+                                            placeholder="Email Address*" required="" type="email" />
+                                        <span
+                                            class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0">
+                                            <i class="ph-bold ph-envelope"></i>
+                                        </span>
+                                    </div>
+                                    <div class="position-relative">
+                                        <textarea
+                                            class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600 tw-h-108-px"
+                                            placeholder="Enter Your Message here"></textarea>
+                                        <span
+                                            class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0">
+                                            <i class="ph-bold ph-note-pencil"></i>
+                                        </span>
+                                    </div>
+                                    <div class="">
+                                        <button
+                                            class="btn btn-main hover--translate-y-1 active--translate-y-scale-9 hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 rounded-0"
+                                            data-block="button" type="submit">
+                                            <span class="button__flair"></span>
+                                            <span
+                                                class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative">
+                                                <i class="ph-bold ph-paper-plane-tilt"></i>
+                                            </span>
+                                            <span class="button__label">Get In Touch</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =============================== Contact Page section End =============================== -->
+            <!-- ================================= Task Management Section Start ============================== -->
+            <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+                <div class="container">
+                    <div class="text-end tw--mb-40-px position-relative z-2">
+                        <img alt="Image" class="tw-me-84-px" src="/images/thumbs/laptop-man.png" />
+                    </div>
+                    <div class="bg-green-deep tw-rounded-3xl bg-green-deep tw-pt-100-px position-relative z-1">
+                        <img alt="Hill Shape" class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1"
+                            src="/images/shapes/hill-shape.png" />
+                        <img alt="Image" class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none"
+                            src="/images/thumbs/task-management-img.png" />
+                        <div class="tw-mb-8 text-center max-w-570-px mx-auto">
+                            <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <div class="">
+                                    Up to <span class="text-yellow text-stroke-yellow">70%</span> off managed cloud
+                                    hosting
+                                </div>
+                            </div>
+                            <h3 class="splitTextStyleOne text-white">
+                                Ready to revolutionize our service?
+                            </h3>
+                            <div class="d-none">
+                                <a class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7"
+                                    data-block="button" href="javascript:void(0)">
+                                    <span class="button__flair"></span>
+                                    <div class="d-flex align-items-center tw-gap-2 z-1">
+                                        <span class="button__label">Download for free</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-block">
+                                <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
+                                    <a class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                        data-block="button" href="javascript:void(0)">
+                                        <span class="button__flair"></span>
+                                        <div class="d-flex align-items-center tw-gap-2 z-1">
+                                            <span class="button__label">Get Started Trial</span>
+                                        </div>
+                                    </a>
+                                    <a class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                        data-block="button" href="javascript:void(0)">
+                                        <span class="button__flair"></span>
+                                        <div class="d-flex align-items-center tw-gap-2 z-1">
+                                            <span class="button__label">Get Started Trial</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tw-pt-8 text-center">
+                            <div
+                                class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Technology</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Project
+                                    management</span>
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill">Technology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================================= Task Management Section End ============================== -->
+            <!-- ========================== Footer Three Section Start ========================= -->
+            <section class="footer-three bg-pink-more-light bg-neutral-light">
+                <div class="py-120">
+                    <div class="container">
+                        <div class="row gy-5">
+                            <div class="col-xl-3 col-sm-4 col-xs-6" data-aos="fade-up" data-aos-duration="600">
+                                <div class="">
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Collaborate</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Partners</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Partners Program</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Affiliate Program</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Community</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">HR Partner Program</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-sm-4 col-xs-6" data-aos="fade-up" data-aos-duration="700">
+                                <div class="">
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">My account</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Company</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Customer Success</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Resources</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Talk an Expert</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-sm-4 col-xs-6" data-aos="fade-up" data-aos-duration="800">
+                                <div class="">
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Service</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Software Development</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Cloud Services</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">AI Machine Learning</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Data Security</a>
+                                        </li>
+                                        <li>
+                                            <a class="hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold"
+                                                href="javascript:void(0)">Software Development</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-lg-6" data-aos="fade-up" data-aos-duration="900">
+                                <div class="ps-xl-5">
+                                    <a class="link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10" href="/">
+                                        <img alt="" src="/images/logo/logo-three.png" />
+                                    </a>
+                                    <form action="#" class="d-flex flex-md-row flex-column tw-gap-5 form-submit">
+                                        <div class="position-relative flex-grow-1">
+                                            <input
+                                                class="tw-h-14 tw-rounded-lg bg-white tw-ps-12 border border-transparent focus-border-main-600 text-heading focus-outline-0 w-100 tw-pe-6"
+                                                placeholder="Email Address" required="" type="email" />
+                                            <span
+                                                class="text-heading tw-text-lg position-absolute top-50 tw-start-0 tw--translate-y-50 tw-ms-5 d-flex">
+                                                <i class="ph ph-envelope-simple"></i>
+                                            </span>
+                                        </div>
+                                        <button
+                                            class="btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-2 group active--translate-y-2 fw-semibold flex-shrink-0 hover--translate-y-1 active--translate-y-scale-9"
+                                            data-block="button" type="submit">
+                                            <span class="button__flair"></span>
+                                            <span class="button__label">Sign Up</span>
+                                            <span
+                                                class="text-white tw-text-sm tw-rounded d-flex justify-content-center align-items-center position-relative group-hover-text-main-600 tw-duration-500">
+                                                <i class="ph-bold ph-caret-right"></i>
+                                            </span>
+                                        </button>
+                                    </form>
+                                    <p class="text-heading fw-semibold tw-mt-9">By subscribing, you're accept
+                                        <a class="text-heading text-decoration-underline hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9"
+                                            href="javascript:void(0)">Privacy Policy</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Bottom -->
+                <div class="container">
+                    <!-- bottom Footer -->
+                    <div class="border-top border-neutral-200 border-0 tw-py-8">
+                        <div class="container container-two">
+                            <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
+                                <p class="text-heading text-line-1 fw-semibold">
+                                    © 2025
+                                    <a class="fw-bold text-gradient-teal hover-underline hover--translate-y-1 active--translate-y-scale-9"
+                                        href="https://themeforest.net/user/wowtheme7">WowTheme7</a>
+                                    - IT Services. All rights reserved.
+                                </p>
+                                <div class="d-flex align-items-center tw-gap-6">
+                                    <a class="text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9"
+                                        href="javascript:void(0)">Faqs</a>
+                                    <a class="text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9"
+                                        href="javascript:void(0)">Setting</a>
+                                    <a class="text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9"
+                                        href="javascript:void(0)">Privacy</a>
+                                    <a class="text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9"
+                                        href="javascript:void(0)">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Bottom End -->
+            </section>
+            <!-- ========================== Footer Three Section End ========================= -->
+        </div>
+    </div>
+
+    {{ include('partials/javascript.html.twig') }}
+
+</body>
+
+</html>

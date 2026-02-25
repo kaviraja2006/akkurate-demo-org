@@ -1,4 +1,3 @@
-
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -9,12 +8,16 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
-###> phpunit/phpunit ###
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
 /phpunit.xml
-/.phpunit.cache/
-###< phpunit/phpunit ###
+###< symfony/phpunit-bridge ###
 
-###> symfony/asset-mapper ###
-/public/assets/
-/assets/vendor/
-###< symfony/asset-mapper ###
+node_modules/
+.DS_Store
+*.log
+
+docker-compose.yml
+docker-compose.yaml
+compose.yaml
+compose.override.yaml
