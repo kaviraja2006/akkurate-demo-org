@@ -3,7 +3,7 @@ services:
     name: sasstech-symfony-app
     env: docker
     plan: free
-    region: frankfurt # Change as needed
+    region: frankfurt 
     envVars:
       - key: APP_ENV
         value: prod
