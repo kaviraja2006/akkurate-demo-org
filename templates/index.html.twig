@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
     <html lang="en" class="home-one">
 
     <head>
@@ -7,7 +7,7 @@
         {{ include('partials/head-css.html.twig') }}
     </head>
 
-<body>
+<body class="overflow-x-hidden w-100">
 
     {{ include('partials/common-content.html.twig') }}
 
@@ -497,7 +497,7 @@
                                 </div>
                                 <!-- Review -->
                                 <div
-                                    class="bg-white tw-rounded-3xl tw-p-6 max-w-218-px position-absolute end-0 top-0 w-100 tw--mt-8-px tw--me-8-px common-shadow-two z-1">
+                                    class="bg-white tw-rounded-3xl tw-p-6 max-w-218-px position-absolute end-0 top-0 w-100 tw--mt-8-px tw--me-8-px common-shadow-two z-1 d-none d-lg-block">
                                     <div
                                         class="d-inline-flex align-items-center tw-gap-1 bg-green tw-py-05 tw-px-3 rounded-pill position-absolute top-0 tw-end-0 tw--mt-12-px tw--me-12-px">
                                         <span class="text-white fw-bold tw-text-sm">4.9</span>
@@ -513,14 +513,14 @@
                                 </div>
                                 <!-- Review -->
                                 <!-- Experience -->
-                                <div class="bg-main-600 tw-p-12 tw-pe-6 d-inline-block tw-rounded-xl clip-path-one position-absolute bottom-0 tw-end-0 z-1 tw--me-70-px tw-mb-205"
+                                <div class="bg-main-600 tw-p-12 tw-pe-6 d-inline-block tw-rounded-xl clip-path-one position-absolute bottom-0 tw-end-0 z-1 tw--me-70-px tw-mb-205 d-none d-lg-inline-block"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="900">
                                     <h2 class="text-white counter">8+</h2>
                                     <span class="text-white">Years Experience</span>
                                 </div>
                                 <!-- Experience -->
                                 <!-- Revenue -->
-                                <div class="bg-white-7 tw-py-6 tw-px-7 tw-rounded-2xl border border-white bg-blur-20 position-absolute bottom-0 tw-start-0 z-1 d-flex align-items-center tw-gap-8 common-shadow-two"
+                                <div class="bg-white-7 tw-py-6 tw-px-7 tw-rounded-2xl border border-white bg-blur-20 position-absolute bottom-0 tw-start-0 z-1 d-flex align-items-center tw-gap-8 common-shadow-two d-none d-md-flex"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <img alt=""
                                         class="flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1"
@@ -580,7 +580,7 @@
             </section>
             <!-- ============================= Banner Section End ============================== -->
             <!-- ============================ brand slider start =========================== -->
-            <div class="brand-slider-wrapper">
+            <div class="brand-slider-wrapper overflow-hidden">
                 <div class="brand-slider swiper">
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
@@ -771,7 +771,7 @@
                     <!-- what we do Start -->
                     <div class="bg-main-two-600 tw-rounded-3xl overflow-hidden position-relative" id="roadmap-section">
                         <div class="tw-ps-74-px tw-pe-6">
-                            <div class="d-flex flex-xl-nowrap flex-wrap tw-gap-126-px">
+                            <div class="d-flex flex-xl-nowrap flex-wrap tw-gap-6 gap-xl-5">
                                 <div class="max-w-432-px w-100 flex-shrink-0">
                                     <div class="pt-120 tw-pb-9 position-relative">
                                         <img alt="Arrow" class="position-absolute top-0 tw-end-0 animate__wobble__two"
@@ -1113,7 +1113,7 @@
                                     <div class="accordion-collapse collapse" data-bs-parent="#accordionExample"
                                         id="collapseTwo">
                                         <div class="accordion-body p-0">
-                                            <p class="text-neutral-500">We donâ€™t stop at traffic or vanity metrics. We optimize the entire revenue journey for your team.</p>
+                                            <p class="text-neutral-500">We don't stop at traffic or vanity metrics. We optimize the entire revenue journey for your team.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1452,7 +1452,7 @@
                             </span>
                         </h3>
                     </div>
-                    <div class="d-flex tw-gap-6 testimonials-item-wrapper flex-wrap">
+                    <div class="d-flex tw-gap-6 testimonials-item-wrapper flex-column flex-lg-row tw-px-4 px-md-0">
                         <!-- Testimonials Item Start -->
                         <div class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100">
                             <div class="current-content">
@@ -1475,8 +1475,8 @@
                                     <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                         <p
                                             class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                            â€œAkkurate doesnâ€™t just run ads like other agencies do. They didnâ€™t just take our money and give us a set output. They built our entire growth framework.â€
-                                            â€” Founder, SaaS Startup</p>
+                                            "Your developer review here framework.â€
+                                            — Founder, SaaS Startup</p>
                                     </div>
                                 </div>
                                 <div
@@ -1519,7 +1519,7 @@
                                     <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                         <p
                                             class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                            â€œAkkurate doesnâ€™t just run ads like other agencies do. They didnâ€™t just take our money and give us a set output. They built our entire growth framework.â€ <br> â€” Founder, SaaS Startup
+                                            "Akkurate doesn't just run ads like other agencies do. They didn't just take our money and give us a set output. They built our entire growth framework.â€ <br> — Founder, SaaS Startup
                                         </p>
                                     </div>
                                 </div>
@@ -1562,7 +1562,7 @@
                                     <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                         <p
                                             class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                            â€œWe reduced CAC by 38% in 4 months. That says everything about how Akkurate helped us grow.â€ <br> â€” CEO, B2B Services Firm
+                                            "We reduced CAC by 38% in 4 months. That says everything about how Akkurate helped us grow.â€ <br> — CEO, B2B Services Firm
                                         </p>
                                     </div>
                                 </div>
@@ -1593,7 +1593,7 @@
                 <!-- ===================================== Blog section start ============================== -->
                 <section class="blog">
                     <div class="container">
-                        <div class="bg-white common-shadow-five py-120 tw-px-90-px">
+                        <div class="bg-white common-shadow-five py-120 tw-px-4 px-md-5">
                             <span class="line w-0 tw-h-2 bg-main-600 tw-mb-4"></span>
                             <div class="d-flex align-items-center justify-content-between tw-mb-12">
                                 <h6 class="">Insights to help you do what you do better, faster and more profitably.
@@ -1923,7 +1923,7 @@
                         <div class="container container-two">
                             <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                                 <p class="text--white text-line-1 fw-normal">
-                                    Â© 2025 <a
+                                    © 2025 <a
                                         class="fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9"
                                         href="https://themeforest.net/user/wowtheme7">WowTheme7</a>
                                     - IT Services. All rights reserved.
@@ -1935,7 +1935,7 @@
                                             <span class="text-main-600 d-flex">
                                                 <i class="ph-fill ph-facebook-logo"></i>
                                             </span>
-                                            <span class="tw-text-base">Facebook</span>
+                                            <span class="d-none d-sm-block tw-text-base">Facebook</span>
                                         </a>
                                     </li>
                                     <li>
@@ -1944,7 +1944,7 @@
                                             <span class="text-main-600 d-flex">
                                                 <i class="ph-fill ph-twitter-logo"></i>
                                             </span>
-                                            <span class="tw-text-base">Twitter</span>
+                                            <span class="d-none d-sm-block tw-text-base">Twitter</span>
                                         </a>
                                     </li>
                                     <li>
@@ -1953,7 +1953,7 @@
                                             <span class="text-main-600 d-flex">
                                                 <i class="ph-fill ph-instagram-logo"></i>
                                             </span>
-                                            <span class="tw-text-base">Instagram</span>
+                                            <span class="d-none d-sm-block tw-text-base">Instagram</span>
                                         </a>
                                     </li>
                                     <li>
@@ -1962,7 +1962,7 @@
                                             <span class="text-main-600 d-flex">
                                                 <i class="ph-fill ph-pinterest-logo"></i>
                                             </span>
-                                            <span class="tw-text-base">Pinterest</span>
+                                            <span class="d-none d-sm-block tw-text-base">Pinterest</span>
                                         </a>
                                     </li>
                                 </ul>
