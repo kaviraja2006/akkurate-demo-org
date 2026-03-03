@@ -435,13 +435,13 @@
 
     // ========================= Accordion Tabs Image Change Js Start ===================
     $(document).on("click", ".accordion-button", function () {
-      const $faqImage = $("#faqImage");
+      const $xxxxxImage = $("#xxxxxImage");
       const newImageSrc = $(this).data("img");
 
-      if (newImageSrc && $faqImage.attr("src") !== newImageSrc) {
-        $faqImage.css("opacity", ".3");
+      if (newImageSrc && $xxxxxImage.attr("src") !== newImageSrc) {
+        $xxxxxImage.css("opacity", ".3");
         setTimeout(() => {
-          $faqImage.attr("src", newImageSrc).css("opacity", "1");
+          $xxxxxImage.attr("src", newImageSrc).css("opacity", "1");
         }, 300);
       }
     });
@@ -744,15 +744,15 @@
             $range.css(
               "inset-inline-start",
               (minPrice / parseInt($rangeInput.eq(0).attr("max"), 10)) * 100 +
-                "%"
+              "%"
             );
           } else {
             $rangeInput.eq(1).val(maxPrice);
             $range.css(
               "inset-inline-end",
               100 -
-                (maxPrice / parseInt($rangeInput.eq(1).attr("max"), 10)) * 100 +
-                "%"
+              (maxPrice / parseInt($rangeInput.eq(1).attr("max"), 10)) * 100 +
+              "%"
             );
           }
         }
@@ -779,8 +779,8 @@
           $range.css(
             "inset-inline-end",
             100 -
-              (maxVal / parseInt($rangeInput.eq(1).attr("max"), 10)) * 100 +
-              "%"
+            (maxVal / parseInt($rangeInput.eq(1).attr("max"), 10)) * 100 +
+            "%"
           );
         }
       });
@@ -807,7 +807,7 @@
       },
     });
     // ========================= Shop Details Slider Js End =====================
-    
+
     // ========================= Testimonials Six Slider Js Start =====================
     var testimonialsSixSlider = new Swiper(".testimonials-six-slider", {
       slidesPerView: 2,
