@@ -3,55 +3,6 @@
     <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
 </div>
 <!--==================== Preloader End ====================-->
-<!-- ========================== Settings Panel start ==================================== -->
-<div class="settings-panel position-fixed top-50 translate-middle-y tw-z-999 d-none d-xl-flex align-items-center">
-    <button
-        class="settings-button tw-w-12 tw-h-12 bg-main-600 text-white hover-bg-main-800 tw-duration-100 d-flex justify-content-center align-items-center"
-        type="button">
-        <i class="ph-fill ph-gear-six setting-icon tw-text-2xl tw-leading-none animation-rotate tw-w-6 tw-h-6"></i>
-        <i class="ph-bold ph-x close-icon tw-text-2xl tw-leading-none tw-w-6 tw-h-6"></i>
-    </button>
-    <div
-        class="settings-panel__content bg-white tw-px-6 tw-py-13 d-flex flex-column tw-gap-10 scroll-sm overflow-y-auto">
-        <div class="d-flex flex-column tw-gap-10">
-            <div class="">
-                <h6 class="settings-panel__title text-center tw-mb-6 text-uppercase">
-                    Cursor
-                </h6>
-                <div class="settings-panel__buttons cursor__buttons d-flex tw-gap-4">
-                    <button
-                        class="settings-panel__button cursor-animate bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active"
-                        type="button">
-                        Animate
-                    </button>
-                    <button
-                        class="settings-panel__button cursor-default bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1"
-                        type="button">
-                        Default
-                    </button>
-                </div>
-            </div>
-            <div class="">
-                <h6 class="settings-panel__title text-center tw-mb-6 text-uppercase">
-                    Direction
-                </h6>
-                <div class="settings-panel__buttons d-flex tw-gap-4">
-                    <button
-                        class="settings-panel__button direction-ltr bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1 active"
-                        type="button">
-                        LTR
-                    </button>
-                    <button
-                        class="settings-panel__button direction-rtl bg-main-two-600 hover-bg-main-600 tw-duration-300 text-white tw-text-base tw-py-305 tw-px-3 fw-medium active-scale-094 flex-grow-1"
-                        type="button">
-                        RTL
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- ========================== Settings Panel end ==================================== -->
 <!--==================== Overlay Start ====================-->
 <div class="overlay"></div>
 <!--==================== Overlay End ====================-->
@@ -87,119 +38,102 @@
         <div class="mobile-menu__menu">
             <!-- Nav menu Start -->
             <ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
-                <li class="nav-menu__item activePage">
+                                                                <li class="nav-menu__item has-submenu position-relative">
                                     <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
-                        href="/">Home</a>
+                                        href="javascript:void(0)">Home</a>
+                                    <ul
+                                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/">Home</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/index-2">Home Two</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/index-3">Home Three</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/index-4">Home Four</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/index-5">Home Five</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/index-6">Home Six</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/about">About</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/app-intigration">App Integration</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/blog">Blog</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/blog-details">Blog Details</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/cart">Cart</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/checkout">Checkout</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/contact">Contact</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/faq">FAQ</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/intigration-details">Integration Details</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/login">Login</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/policy-privacy">Policy Privacy</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/pricing-plan">Pricing Plan</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/project-details">Project Details</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/register">Register</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/service-details">Service Details</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/shop">Shop</a></li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative"><a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="/shop-details">Shop Details</a></li>
+                                    </ul>
                                 </li>
-                <li class="nav-menu__item has-submenu position-relative">
-                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
-                        href="javascript:void(0)">Pages</a>
-                    <ul
-                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/pricing-plan">
-                                Pricing
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/about">
-                                About Us
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/app-intigration">
-                                xxxxx
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/intigration-details">
-                                xxxxx
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/policy-privacy">
-                                xxxxx
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/xxxxx">
-                                xxxxx
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/project-details">
-                                Project Details
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/service-details">
-                                Service Details
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-menu__item has-submenu position-relative">
-                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
-                        href="javascript:void(0)">Shop</a>
-                    <ul
-                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/shop">
-                                Shop
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/shop-details">
-                                Shop Details
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/cart">
-                                Cart
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/checkout">
-                                Checkout
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-menu__item has-submenu position-relative">
-                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
-                        href="javascript:void(0)">Blog</a>
-                    <ul
-                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/blog">
-                                Blog
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
-                                href="/blog-details">
-                                Blog Details
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-menu__item">
-                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
-                        href="/contact">Contact</a>
-                </li>
+                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Services</a>
+                                    <ul
+                                        class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                                href="/service-details">
+                                                Service Details
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Industries</a>
+                                    <ul
+                                        class="industries-dropdown nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">B2B Marketing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Eduction</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Healthcare</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Hospitality</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Real Estate</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Jewellery</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Travel</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Food</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Clothing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Manufacture</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/project-details">Our Work</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/blog">Blog</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/about">About Us</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/contact">Contact Us</a>
+                                </li>
             </ul>
             <!-- Nav menu End  -->
         </div>

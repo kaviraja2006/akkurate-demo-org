@@ -447,12 +447,71 @@
     });
     // ========================= Accordion Tabs Image Change Js End ===================
 
-    // ========================= Testimonials Tab Js start ===================
-    $(document).on("click", ".testimonials-item", function () {
-      $(".testimonials-item").removeClass("active");
-      $(this).addClass("active");
-    });
-    // ========================= Testimonials Tab Js End ===================
+    // ========================= Testimonials Auto Horizontal Scroll Js Start ===================
+    const testimonialsTrack = document.querySelector(".testimonials-rebuild__track");
+    if (testimonialsTrack && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      let autoScrollInterval = null;
+      let isPaused = false;
+
+      function getScrollStep() {
+        const firstCard = testimonialsTrack.querySelector(".testimonials-rebuild__card");
+        if (!firstCard) return 320;
+        const styles = window.getComputedStyle(testimonialsTrack);
+        const gap = parseFloat(styles.columnGap || styles.gap || "22");
+        return firstCard.getBoundingClientRect().width + gap;
+      }
+
+      function scrollTestimonialsNext() {
+        const maxScrollLeft = testimonialsTrack.scrollWidth - testimonialsTrack.clientWidth;
+        if (maxScrollLeft <= 0) return;
+
+        const nextLeft = testimonialsTrack.scrollLeft + getScrollStep();
+        if (nextLeft >= maxScrollLeft - 2) {
+          testimonialsTrack.scrollTo({ left: 0, behavior: "smooth" });
+          return;
+        }
+
+        testimonialsTrack.scrollTo({ left: nextLeft, behavior: "smooth" });
+      }
+
+      function startAutoScroll() {
+        stopAutoScroll();
+        autoScrollInterval = setInterval(() => {
+          if (!isPaused && !document.hidden) {
+            scrollTestimonialsNext();
+          }
+        }, 3000);
+      }
+
+      function stopAutoScroll() {
+        if (autoScrollInterval) {
+          clearInterval(autoScrollInterval);
+          autoScrollInterval = null;
+        }
+      }
+
+      testimonialsTrack.addEventListener("mouseenter", () => {
+        isPaused = true;
+      });
+      testimonialsTrack.addEventListener("mouseleave", () => {
+        isPaused = false;
+      });
+      testimonialsTrack.addEventListener("touchstart", () => {
+        isPaused = true;
+      }, { passive: true });
+      testimonialsTrack.addEventListener("touchend", () => {
+        setTimeout(() => {
+          isPaused = false;
+        }, 1200);
+      }, { passive: true });
+
+      document.addEventListener("visibilitychange", () => {
+        isPaused = document.hidden;
+      });
+
+      startAutoScroll();
+    }
+    // ========================= Testimonials Auto Horizontal Scroll Js End ===================
 
     // ========================== Set Text In Custom dropdown Js Start =================================
     $(".selectable-text-list li").each(function () {

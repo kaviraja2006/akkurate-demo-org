@@ -170,4 +170,29 @@
     }
   }
 }
+
+.footer-akkurate-dark {
+  background-color: #081a4b !important;
+  margin-bottom: 0 !important;
+}
+
+.footer-akkurate-dark h3,
+.footer-akkurate-dark h5,
+.footer-akkurate-dark p,
+.footer-akkurate-dark .text-heading,
+.footer-akkurate-dark .text-neutral-600 {
+  color: #ffffff !important;
+}
+
+.footer-akkurate-dark a {
+  color: #dbe7ff !important;
+}
+
+.footer-akkurate-dark a:hover {
+  color: #7dc7ff !important;
+}
+
+.footer-akkurate-dark .border-top {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
 /* hover bg class end */
