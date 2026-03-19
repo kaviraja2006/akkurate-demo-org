@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Remove .php from URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
+
+# Default route
+DirectoryIndex index.php

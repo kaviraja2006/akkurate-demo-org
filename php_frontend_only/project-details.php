@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en" class="home-one">
+
+<head>
+    <?php include 'partials/title-meta.php'; ?>
+        
+    <?php include 'partials/head-css.php'; ?>
+</head>
+
+<body>
+
+    <?php include 'partials/common-content.php'; ?>
+
+    <div id="smooth-wrapper">
+        <!-- ==================== Header Two Start Here ==================== -->
+        <header
+            class="header home-two-header py-0 top-0 tw-start-0 tw-end-0 w-100 tw-z-99 tw-mt-9 position-absolute header-inner-page">
+            <div class="container">
+                <div
+                    class="header-box-inner py-2 py-lg-0 tw-gap-4 tw-lg-ps-12 tw-ps-6 tw-pe-705 bg-white transition-all tw-rounded-lg">
+                    <nav class="d-flex align-items-center justify-content-between position-relative">
+                        <!-- Logo Start -->
+                        <div class="logo">
+                            <a class="link hover--translate-y-1 active--translate-y-scale-9" href="/">
+                                <img src="https://res.cloudinary.com/ddnxhn442/image/upload/v1772783818/Akkurate_Blue_e3rv52.png" alt="Akkurate" style="height: 40px; width: auto;" />
+                            </a>
+                        </div>
+                        <!-- Logo End  -->
+                        <!-- Menu Start  -->
+                        <div class="header-menu d-lg-block d-none">
+                            <!-- Nav menu Three Start -->
+                            <ul class="nav-menu d-lg-flex align-items-center tw-gap-7">
+                                                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100" href="/">Home</a>
+                                </li>
+                                <li class="nav-menu__item has-submenu position-relative services-mega-parent">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Services</a>
+                                    <div class="services-mega-dropdown">
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Digital Marketing</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">Generative Engine Optimization(GEO)</a></li>
+                                                <li><a href="#">Answer Engine Optimization(AEO)</a></li>
+                                                <li><a href="#">Search Engine Optimization(SEO)</a></li>
+                                                <li><a href="#">Google Ads</a></li>
+                                                <li><a href="#">Meta Ads</a></li>
+                                                <li><a href="#">Linkedin Ads</a></li>
+                                                <li><a href="#">Social Media Marketing</a></li>
+                                                <li><a href="#">Youtube Marketing</a></li>
+                                                <li><a href="#">Google My Business Page</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Website Development</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">App Development</a></li>
+                                                <li><a href="#">Website Development</a></li>
+                                                <li><a href="#">Web Application</a></li>
+                                                <li><a href="#">CMS Development</a></li>
+                                                <li><a href="#">E-Commerce Service</a></li>
+                                                <li><a href="#">Website Design</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Branding</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">Logo Design</a></li>
+                                                <li><a href="#">Content Creation</a></li>
+                                                <li><a href="#">UI/UX Design</a></li>
+                                                <li><a href="#">Motion Graphics</a></li>
+                                                <li><a href="#">Explainer Video</a></li>
+                                                <li><a href="#">Corporate Video</a></li>
+                                                <li><a href="#">Reels Making</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Industries</a>
+                                    <ul
+                                        class="industries-dropdown nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">B2B Marketing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Eduction</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Healthcare</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Hospitality</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Real Estate</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Jewellery</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Travel</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Food</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Clothing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Manufacture</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/project-details">Our Work</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/blog">Blog</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/about">About Us</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/contact">Contact Us</a>
+                                </li>
+                            </ul>
+                            <!-- Nav menu Three End  -->
+                        </div>
+                        <!-- Menu End  -->
+                        <!-- Header Right start -->
+                    <div class="d-flex align-items-center tw-gap-6">
+                        <button class="toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9" type="button">
+                            <i class="ph ph-list"></i>
+                        </button>
+                    </div>
+                    <!-- Header Right End  -->
+                </nav>
+                </div>
+            </div>
+        </header>
+        <!-- ==================== Header Two End Here ==================== -->
+        <div id="smooth-content">
+                        <style>
+                .pdxr{background:#f3f4f6}
+                .pdxr .wrap{max-width:1240px}
+                .pdxr .hero{padding:165px 0 90px}
+                .pdxr h1{font-size:clamp(42px,4.6vw,82px);line-height:1.08;letter-spacing:-.02em;color:#151923;margin-bottom:22px}
+                .pdxr .lead{max-width:560px;color:#4f5b6f;font-size:24px;line-height:1.65}
+                .pdxr .btn-dark{background:#171b25;border:1px solid #171b25;color:#fff;border-radius:10px;padding:11px 24px;font-size:26px;font-weight:700;display:inline-flex}
+                .pdxr .art{position:relative;max-width:620px;margin-left:auto}
+                .pdxr .art:before{content:"";position:absolute;right:-24px;top:-24px;width:72%;height:90%;border-radius:10px;background:radial-gradient(circle at 10% 0,#2a3140 0,#11151e 70%)}
+                .pdxr .screen{position:relative;width:100%;border:4px solid #1b1f2a;border-radius:12px;box-shadow:0 26px 48px rgba(17,24,39,.18)}
+                .pdxr .float{position:absolute;left:-42px;bottom:-30px;width:122px;background:#fff;border-radius:10px;box-shadow:0 12px 24px rgba(16,24,40,.16);padding:9px}
+                .pdxr .float img{width:54px;height:54px;border-radius:999px;object-fit:cover;margin-bottom:7px}
+                .pdxr .float h6{margin:0;font-size:18px}
+                .pdxr .float p{margin:2px 0 0;color:#667085;font-size:13px}
+                .pdxr .tools{padding:26px 0 90px}
+                .pdxr .h2{font-size:clamp(32px,3.8vw,66px);line-height:1.15;text-align:center;color:#131926;margin-bottom:16px;letter-spacing:-.02em}
+                .pdxr .sub{text-align:center;max-width:760px;margin:0 auto;color:#525f73;font-size:16px;line-height:1.65}
+                .pdxr .grid{margin-top:40px;display:grid;grid-template-columns:360px minmax(0,1fr);gap:26px;align-items:start}
+                .pdxr .card{background:#f7f8fa;border:1px solid #d8dee7;border-radius:10px;padding:26px}
+                .pdxr .ic{width:44px;height:44px;border-radius:12px;background:rgba(59,130,246,.18);display:inline-flex;align-items:center;justify-content:center;color:#2563eb;font-size:20px;margin-bottom:14px}
+                .pdxr h3{font-size:22px;line-height:1.3;color:#111827;margin-bottom:10px}
+                .pdxr .h2{font-size:clamp(32px,3.8vw,56px)}
+                .pdxr .card p{font-size:14px;line-height:1.6;color:#5a677d;margin-bottom:16px}
+                .pdxr .btn-sm{padding:8px 16px;border-radius:7px;font-size:14px;font-weight:700;display:inline-flex}
+                .pdxr .btn-green{background:#2563eb;border:1px solid #2563eb;color:#fff}
+                .pdxr .mix{display:block;margin:22px auto 0;max-width:90%;max-height:340px;object-fit:contain}
+                .pdxr .grid>div:first-child .card{display:flex;flex-direction:column;min-height:625px}
+                .pdxr .grid>div:first-child .mix{margin-top:auto}
+                /* Card 1 heading & text sizes override */
+                .pdxr .grid>div:first-child h3{font-size:24px;font-weight:700;line-height:1.25;margin-bottom:10px;letter-spacing:-.01em}
+                .pdxr .grid>div:first-child p{font-size:14px;color:#6b7a8f;line-height:1.6;margin-bottom:20px}
+                /* Blue card (Card 2) */
+                .pdxr .green{background:#dbeafe;border:1px solid #bfdbfe;border-radius:10px;padding:0;overflow:hidden;display:flex;align-items:stretch;height:340px}
+                .pdxr .green-left{padding:28px 20px 28px 28px;flex:0 0 42%;display:flex;flex-direction:column;justify-content:flex-start;min-width:0}
+                .pdxr .green-left h3{font-size:20px;font-weight:700;line-height:1.3;color:#111827;margin-bottom:8px}
+                .pdxr .green-left p{font-size:13px;color:#374d6e;line-height:1.6;margin-bottom:14px;flex:1}
+                .pdxr .card.green{padding:0;height:340px}
+                .pdxr .green>img{flex:1 1 auto;min-width:0;object-fit:cover;object-position:right 50%;border-radius:0 10px 10px 0;display:block;height:100%;width:auto;max-width:58%;align-self:flex-end;margin-top:-20%}
+                .pdxr .btn-outline-green{background:#fff;border:1.5px solid #2563eb;color:#2563eb;transition:all 0.2s;font-weight:700;padding:7px 18px;border-radius:7px;font-size:14px;display:inline-flex;align-self:flex-start}
+                .pdxr .btn-outline-green:hover{background:#2563eb;color:#fff}
+                /* Mini row (Cards 3 & 4) */
+                .pdxr .mini{margin-top:24px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+                .pdxr .darkmini{background:#161b27;border-radius:10px;padding:28px;color:#fff;position:relative;overflow:hidden;display:flex;flex-direction:column;min-height:260px}
+                .pdxr .darkmini:before{content:"";position:absolute;right:-70px;bottom:-70px;width:200px;height:200px;border-radius:999px;border:1px solid rgba(255,255,255,.06);box-shadow:0 0 0 18px rgba(255,255,255,.04),0 0 0 36px rgba(255,255,255,.03),0 0 0 54px rgba(255,255,255,.02),0 0 0 72px rgba(255,255,255,.01)}
+                .pdxr .darkmini:after{display:none}
+                .pdxr .darkmini h3{color:#fff;font-size:20px;font-weight:700;max-width:240px;margin-bottom:0;line-height:1.35;position:relative;z-index:2}
+                .pdxr .darkmini .btn-sm{margin-top:auto;background:#fff;color:#111827;border:1px solid #fff;align-self:flex-start;position:relative;z-index:2;font-size:13px;padding:8px 20px}
+                .pdxr .data{background:#f7f8fa;min-height:260px;display:flex;flex-direction:column;align-items:flex-start}
+                .pdxr .data h3{font-size:20px;font-weight:700;color:#111827;margin-bottom:8px}
+                .pdxr .data p{font-size:13px;color:#5a677d;line-height:1.6;margin-bottom:0;flex:1}
+                .pdxr .data .btn-green{margin-top:14px;font-size:13px;padding:8px 20px;border-radius:7px}
+                @media (max-width:1199px){.pdxr .grid,.pdxr .ana,.pdxr .flow-grid{grid-template-columns:1fr}.pdxr .mini{grid-template-columns:1fr 1fr}.pdxr .float,.pdxr .chip1,.pdxr .chip2{position:static;margin-top:12px}}
+                @media (max-width:991px){.pdxr .hero{padding:145px 0 78px}.pdxr .art{margin-top:24px}.pdxr .float{display:none}.pdxr .impact{grid-template-columns:repeat(2,1fr)}.pdxr .mini{grid-template-columns:1fr}.pdxr .grid{gap:18px}.pdxr .green{flex-direction:column;align-items:stretch}.pdxr .green-left{flex-basis:auto;padding:24px 24px 0}.pdxr .green>img{width:80%;max-width:380px;align-self:flex-end;border-radius:8px 0 0 8px}}
+                @media (max-width:767px){.pdxr .impact,.pdxr .pts{grid-template-columns:1fr}.pdxr .tabs{border-radius:14px}.pdxr .mini{grid-template-columns:1fr}}
+                .pdxr .dark{background:#151925;padding:96px 0 110px;position:relative;overflow:hidden}
+                .pdxr .dark:before{content:"";position:absolute;top:-130px;right:-130px;width:420px;height:420px;border-radius:999px;border:1px solid rgba(255,255,255,.08)}
+                .pdxr .ey{display:inline-block;background:rgba(59,130,246,.2);color:#3b82f6;border-radius:5px;padding:7px 12px;font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin-bottom:18px}
+                .pdxr .twhite{font-size:clamp(48px,4.3vw,76px);line-height:1.15;color:#fff;text-align:center;max-width:760px;margin:0 auto}
+                .pdxr .tabs{margin:28px auto 72px;background:rgba(255,255,255,.06);border-radius:999px;display:flex;gap:8px;justify-content:center;max-width:630px;padding:8px;flex-wrap:wrap}
+                .pdxr .pill{color:#d7deec;border-radius:999px;padding:10px 16px;font-size:20px;font-weight:600;position:relative}
+                .pdxr .pill.active{background:#2563eb;color:#fff}
+                .pdxr .pill.tag:after{content:"Coming soon";position:absolute;top:-22px;left:16px;background:#ef4444;color:#fff;border-radius:5px;padding:3px 7px;font-size:11px}
+                .pdxr .ana{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+                .pdxr .ana h3{color:#fff;font-size:52px;margin:14px 0}
+                .pdxr .ana p{color:#ced7e7;max-width:560px;font-size:23px;line-height:1.7}
+                .pdxr .list{list-style:none;margin:0 0 22px;padding:0}
+                .pdxr .list li{color:#eff4fb;font-size:23px;margin-bottom:10px;display:flex;gap:9px;align-items:center}
+                .pdxr .list i{color:#60a5fa}
+                .pdxr .media{position:relative}
+                .pdxr .media img{width:100%;border-radius:8px}
+                .pdxr .chip1{position:absolute;top:-16px;right:-12px;background:#fff;border-radius:8px;padding:10px 14px;font-size:15px;font-weight:700}
+                .pdxr .chip2{position:absolute;left:-26px;bottom:-20px;background:#121722;border:1px solid rgba(255,255,255,.08);border-radius:8px;width:220px;padding:14px}
+                .pdxr .chip2 p{margin:0;color:#dbe3f1;font-size:13px}
+                .pdxr .bar{height:5px;background:rgba(255,255,255,.15);border-radius:99px;overflow:hidden;margin-top:10px}
+                .pdxr .bar span{display:block;height:100%;width:80%;background:#3b82f6}
+                .pdxr .flow{padding:90px 0 104px;background:#f4f5f7}
+                .pdxr .flow-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center;margin-bottom:92px}
+                .pdxr .flow h2{font-size:clamp(46px,4vw,72px);line-height:1.15;color:#131926;margin-bottom:14px}
+                .pdxr .flow .p{color:#546176;font-size:23px;line-height:1.65;max-width:640px}
+                .pdxr .pts{margin-top:24px;border-top:1px solid #d8dee7;padding-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:16px 22px}
+                .pdxr .pt{display:flex;gap:10px}
+                .pdxr .pt i{width:32px;height:32px;border-radius:999px;background:rgba(59,130,246,.15);display:inline-flex;align-items:center;justify-content:center;color:#2563eb;font-size:16px;margin-top:1px}
+                .pdxr .pt h6{margin:0;font-size:30px;color:#131926}
+                .pdxr .pt p{margin:2px 0 0;color:#667085;font-size:13px}
+                .pdxr .proj{background:#fff;border:1px solid #d8dee7;border-radius:8px;padding:16px;position:relative}
+                .pdxr .proj img{width:100%;border-radius:8px}
+                .pdxr .proj-top{position:absolute;top:-24px;right:-12px;background:#fff;border-radius:8px;padding:10px 12px;box-shadow:0 10px 20px rgba(16,24,40,.12);font-size:12px;color:#475467}
+                .pdxr .cta{width:100%;text-align:center;background:#eef0f3;border:1px solid #e2e6ec;border-radius:7px;color:#111827;padding:9px 16px;font-size:14px;display:inline-flex;justify-content:center}
+                .pdxr .impact{margin-top:50px;display:grid;grid-template-columns:repeat(3,1fr);gap:34px 28px}
+                .pdxr .item{text-align:center}
+                .pdxr .item .ic{width:40px;height:40px;margin-bottom:12px}
+                .pdxr .item h5{font-size:46px;color:#111827;margin-bottom:8px}
+                .pdxr .item p{margin:0;color:#667085;font-size:14px;line-height:1.6}
+
+            </style>
+
+            <main class="pdxr">
+                <section class="hero">
+                    <div class="container wrap">
+                        <div class="row align-items-center gy-5">
+                            <div class="col-lg-6">
+                                <h1>Unleash the Power<br>of Our Features</h1>
+                                <p class="lead tw-mb-9">This structure maintains a focus on the strength and potential of your SAAS features while providing an invitation to explore them further.</p>
+                                <a class="btn-dark" href="javascript:void(0)">Start Exploring Now</a>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="art">
+                                    <img alt="Dashboard" class="screen" src="/assets/images/thumbs/banner-dashboard.png">
+                                    <div class="float">
+                                        <img alt="Profile" src="/assets/images/thumbs/blogger.png">
+                                        <h6>Product tile</h6>
+                                        <p>Short preview card</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tools">
+                    <div class="container wrap">
+                        <h2 class="h2">Empowering Your Business with<br>Advanced Tools</h2>
+                        <p class="sub">There is nothing that can stop you from achieving what you want, except yourself. If you devote yourself to it you will achieve your goal.</p>
+                        <div class="grid">
+                            <div>
+                                <div class="card">
+                                    <span class="ic"><i class="ph-bold ph-funnel"></i></span>
+                                    <h3>Expertise in SaaS implements</h3>
+                                    <p>Our platform offers a comprehensive suite of features designed to empower your business.</p>
+                                    <a class="btn-dark btn-sm" href="javascript:void(0)">View Integration</a>
+                                    <img alt="Integrations" class="mix" src="https://res.cloudinary.com/ddnxhn442/image/upload/v1772605175/adipoli_g9snfs.png">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card green">
+                                    <div class="green-left">
+                                        <span class="ic"><i class="ph-bold ph-puzzle-piece"></i></span>
+                                        <h3>Collaborating on work<br>shouldn't be this hard</h3>
+                                        <p>We provide digital transformation solutions, enabling companies to make their visions.</p>
+                                        <a class="btn-outline-green btn-sm" href="javascript:void(0)">Explore Now</a>
+                                    </div>
+                                    <img alt="Dashboard view" src="/assets/images/thumbs/workplace-tab-thumb.png">
+                                </div>
+                                <div class="mini">
+                                    <div class="darkmini">
+                                        <h3>Want to see how to apply this in projects?</h3>
+                                        <a class="btn-sm" href="javascript:void(0)">See our work</a>
+                                    </div>
+                                    <div class="card data">
+                                        <span class="ic"><i class="ph-bold ph-stack"></i></span>
+                                        <h3>Data Protection</h3>
+                                        <p>Ample order up in of in ready. Timed blind had now those ought set often which. Or snug dull he show more true wish.</p>
+                                        <a class="btn-green btn-sm" href="javascript:void(0)">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="dark">
+                    <div class="container wrap">
+                        <div class="text-center">
+                            <span class="ey">Features</span>
+                            <h2 class="twhite">Powerful SaaS features for your agency</h2>
+                            <div class="tabs">
+                                <span class="pill active">Analytics</span><span class="pill">Collaboration</span><span class="pill tag">Automation</span><span class="pill">Scalability</span>
+                            </div>
+                        </div>
+                        <div class="ana">
+                            <div>
+                                <span class="ey">Analytics</span>
+                                <h3>Comprehensive data analytics and reporting</h3>
+                                <p>Gain valuable insights into your digital campaigns with our comprehensive data analytics and reporting feature.</p>
+                                <ul class="list">
+                                    <li><i class="ph-fill ph-check-circle"></i> Actionable recommendations</li>
+                                    <li><i class="ph-fill ph-check-circle"></i> Cross-channel analysis</li>
+                                    <li><i class="ph-fill ph-check-circle"></i> User-friendly interface</li>
+                                </ul>
+                                <a class="btn-dark btn-sm" style="background:#fff;color:#111827;border-color:#fff" href="javascript:void(0)">Explore analytics</a>
+                            </div>
+                            <div class="media">
+                                <img alt="Team meeting" src="/assets/images/thumbs/office-stock.jpg">
+                                <div class="chip1">Meeting with 👥</div>
+                                <div class="chip2"><p class="tw-mb-2">Our lovely customers</p><p style="font-weight:700">5k+ active users</p><div class="bar"><span></span></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="flow">
+                    <div class="container wrap">
+                        <div class="flow-grid">
+                            <div>
+                                <h2>Workflow become clearer<br>and more organized</h2>
+                                <p class="p">Supposing so be resolving breakfast am or perfectly. It drew a hill from me. Valley by oh twenty direct me so.</p>
+                                <div class="pts">
+                                    <div class="pt"><i class="ph-fill ph-tree-structure"></i><div><h6>Organized your data</h6><p>We have good cloud server</p></div></div>
+                                    <div class="pt"><i class="ph-fill ph-users-three"></i><div><h6>Work with any team</h6><p>Ready to help your employee</p></div></div>
+                                    <div class="pt"><i class="ph-fill ph-chart-pie-slice"></i><div><h6>Embedded Analytics</h6><p>Once paid for forever use</p></div></div>
+                                    <div class="pt"><i class="ph-fill ph-shield-check"></i><div><h6>Collaborate securely</h6><p>Share and publish your record.</p></div></div>
+                                </div>
+                                <a class="btn-dark btn-sm tw-mt-8" href="javascript:void(0)">Know more information</a>
+                            </div>
+                            <div class="proj">
+                                <div class="proj-top"><strong>Followers Gain</strong> 24.7%</div>
+                                <h5 class="tw-mb-4">Recent Project</h5>
+                                <img alt="Recent project" src="/assets/images/thumbs/project-details-img2.png">
+                                <h5 class="tw-mt-6">Design webflow multipurpose SaaS theme</h5>
+                                <p class="text-neutral-600">Tuesday, Jan 28 • 11:30 PM</p>
+                                <div class="d-flex align-items-center tw-gap-3 tw-mb-5"><img alt="Emma Watson" src="/assets/images/thumbs/about-team-img1.jpg" style="width:34px;height:34px;border-radius:999px;object-fit:cover;"><span class="fw-semibold">Emma Watson</span></div>
+                                <a class="cta" href="javascript:void(0)">View case study</a>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <h2 class="h2">Understanding of your website's<br>impact</h2>
+                            <p class="sub">There is nothing that can stop you from achieving what you want, except yourself. If you devote yourself to it you will achieve your goal.</p>
+                        </div>
+                        <div class="impact">
+                            <div class="item"><span class="ic"><i class="ph-bold ph-users-three"></i></span><h5>Assignment &amp; roles</h5><p>Assign owners to conversations, and delegate to team members to follow every update.</p></div>
+                            <div class="item"><span class="ic"><i class="ph-bold ph-envelope-simple-open"></i></span><h5>Internal-only messages</h5><p>Ask a quick six seven offer see among. Handsome met debating sir dwelling age material.</p></div>
+                            <div class="item"><span class="ic"><i class="ph-bold ph-file"></i></span><h5>File previews</h5><p>Far advanced settling say finished railery. Offered chiefly farther of my no colonel shyness.</p></div>
+                            <div class="item"><span class="ic"><i class="ph-bold ph-rocket-launch"></i></span><h5>Large attachments</h5><p>Affronting imprudence does everything. Sex lasted dinner wanted indeed wished outlaw.</p></div>
+                            <div class="item"><span class="ic"><i class="ph-bold ph-bell"></i></span><h5>Reminders</h5><p>Such on help ye some door if in. Laughter proposal laughing any son law consider.</p></div>
+                            <div class="item"><span class="ic"><i class="ph-bold ph-map-pin"></i></span><h5>Location tracking</h5><p>State burst think end are its. Arrived off she elderly beloved him affixed noisier yet.</p></div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- ========================== Footer Three Section Start ========================= -->
+            <section class="footer-three footer-akkurate-dark">
+                <div class="py-120">
+                    <div class="container">
+                        <div class="row gy-5 align-items-start">
+                            <div class="col-xl-4 col-lg-5 col-sm-6" data-aos="fade-up" data-aos-duration="600">
+                                <div class="pe-xl-4">
+                                    <img src="https://res.cloudinary.com/ddnxhn442/image/upload/v1772783827/Akkurate_white_text_rt7yoy.png" alt="Akkurate" style="height: 55px; width: auto; margin-bottom: 1rem;" />
+                                    <p class="text-heading fw-semibold tw-mb-6">Reach out to our team and we'll get back to you within a day.</p>
+                                    <div class="d-flex flex-column tw-gap-4">
+                                        <a class="text-heading fw-semibold hover-text-main-600" href="tel:+919841663161">+91 9841663161</a>
+                                        <a class="text-heading fw-semibold hover-text-main-600" href="mailto:growth@akkurate.in">growth@akkurate.in</a>
+                                        <p class="text-heading fw-semibold tw-mb-0">No. 63/44, 3rd Cross Street, Ranganadhapuram, West Tambaram, Chennai- 600 045</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="700">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Digital Marketing</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">GEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">AEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">SEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Google Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Meta Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Linkedin Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Social Media Marketing</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Youtube Marketing</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Google My Business Page</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="800">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Website Development</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">App Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Website Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Web Application</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">CMS Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">E-Commerce Service</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Website Design</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="900">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Branding</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Logo Design</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Content Creation</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">UI/UX Design</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Motion Graphics</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Explainer Video</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Corporate Video</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Reels Making</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="border-top border-neutral-200 border-0 tw-py-8">
+                        <div class="container container-two">
+                            <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
+                                <p class="text-white text-line-1 fw-semibold mb-0">&copy; 2026 Akkurate. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================== Footer Three Section End ========================= -->
+        </div>
+    </div>
+
+    <?php include 'partials/javascript.php'; ?>
+
+</body>
+
+</html>

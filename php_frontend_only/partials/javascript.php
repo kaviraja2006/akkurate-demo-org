@@ -1,0 +1,14 @@
+<script src="/assets/js/jquery-3.7.1.min.js"></script>
+<script src="/assets/js/phosphor-icon.js"></script>
+<script src="/assets/js/boostrap.bundle.min.js"></script>
+<script src="/assets/js/gsap.min.js"></script>
+<script src="/assets/js/ScrollTrigger.min.js"></script>
+<script src="/assets/js/ScrollSmoother.min.js"></script>
+<script src="/assets/js/SplitText.min.js"></script>
+<script src="/assets/js/custom-gsap.js"></script>
+<script src="/assets/js/aos.js"></script>
+<script src="/assets/js/counterup.min.js"></script>
+<script src="/assets/js/swiper-bundle.min.js"></script>
+<script src="/assets/js/jquery.marquee.min.js"></script>
+<script src="/assets/js/magnific-popup.min.js"></script>
+<script src="/assets/js/main.js"></script>

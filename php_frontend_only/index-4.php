@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en" class="home-crm heading-black">
+
+<head>
+    <?php include 'partials/title-meta.php'; ?>
+
+    <?php include 'partials/head-css.php'; ?>
+</head>
+
+<body>
+
+    <?php include 'partials/common-content.php'; ?>
+
+    <div id="smooth-wrapper">
+        <!-- ==================== Header Two Start Here ==================== -->
+        <header class="header home-two-header py-0 top-0 tw-start-0 tw-end-0 w-100 tw-z-99 tw-mt-13 position-absolute">
+            <div class="container">
+                <div
+                    class="header-box-inner py-2 py-lg-0 tw-gap-4 tw-lg-ps-12 tw-ps-6 tw-pe-705 bg-white transition-all tw-rounded-lg">
+                    <nav class="d-flex align-items-center justify-content-between position-relative">
+                        <!-- Logo Start -->
+                        <div class="logo">
+                            <a class="link hover--translate-y-1 active--translate-y-scale-9" href="/">
+                                <img src="https://res.cloudinary.com/ddnxhn442/image/upload/v1772783818/Akkurate_Blue_e3rv52.png" alt="Akkurate" style="height: 40px; width: auto;" />
+                            </a>
+                        </div>
+                        <!-- Logo End  -->
+                        <!-- Menu Start  -->
+                        <div class="header-menu d-lg-block d-none">
+                            <!-- Nav menu Start -->
+                            <ul class="nav-menu d-lg-flex align-items-center tw-gap-7">
+                                                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100" href="/">Home</a>
+                                </li>
+                                <li class="nav-menu__item has-submenu position-relative services-mega-parent">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Services</a>
+                                    <div class="services-mega-dropdown">
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Digital Marketing</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">Generative Engine Optimization(GEO)</a></li>
+                                                <li><a href="#">Answer Engine Optimization(AEO)</a></li>
+                                                <li><a href="#">Search Engine Optimization(SEO)</a></li>
+                                                <li><a href="#">Google Ads</a></li>
+                                                <li><a href="#">Meta Ads</a></li>
+                                                <li><a href="#">Linkedin Ads</a></li>
+                                                <li><a href="#">Social Media Marketing</a></li>
+                                                <li><a href="#">Youtube Marketing</a></li>
+                                                <li><a href="#">Google My Business Page</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Website Development</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">App Development</a></li>
+                                                <li><a href="#">Website Development</a></li>
+                                                <li><a href="#">Web Application</a></li>
+                                                <li><a href="#">CMS Development</a></li>
+                                                <li><a href="#">E-Commerce Service</a></li>
+                                                <li><a href="#">Website Design</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Branding</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">Logo Design</a></li>
+                                                <li><a href="#">Content Creation</a></li>
+                                                <li><a href="#">UI/UX Design</a></li>
+                                                <li><a href="#">Motion Graphics</a></li>
+                                                <li><a href="#">Explainer Video</a></li>
+                                                <li><a href="#">Corporate Video</a></li>
+                                                <li><a href="#">Reels Making</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-white tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Industries</a>
+                                    <ul
+                                        class="industries-dropdown nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">B2B Marketing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Eduction</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Healthcare</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Hospitality</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Real Estate</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Jewellery</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Travel</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Food</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Clothing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Manufacture</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/project-details">Our Work</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/blog">Blog</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/about">About Us</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-white tw-py-9 fw-semibold w-100"
+                                        href="/contact">Contact Us</a>
+                                </li>
+                            </ul>
+                            <!-- Nav menu End  -->
+                        </div>
+                        <!-- Menu End  -->
+                        <!-- Header Right start -->
+                    <div class="d-flex align-items-center tw-gap-6">
+                        <button class="toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9" type="button">
+                            <i class="ph ph-list"></i>
+                        </button>
+                    </div>
+                    <!-- Header Right End  -->
+                </nav>
+                </div>
+            </div>
+        </header>
+        <!-- ==================== Header Two End Here ==================== -->
+        <div id="smooth-content">
+            <!-- =============================== Banner Four Start ================================== -->
+            <section class="banner-two position-relative z-1 pb-0">
+                <img alt="Cloud Shape" class="position-absolute top-0 tw-start-0 w-100 z-n1 banner-gradient-bg"
+                    src="/assets/images/bg/mash-gradient-bg1.png" />
+                <div class="banner-two__inner position-relative">
+                    <div class="container">
+                        <div class="text-center">
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">With the world's favorite
+                                CRM</span>
+                            <div class="">
+                                <div class="position-relative d-inline-block">
+                                    <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
+                                        The next gen of CRM.</h1>
+                                    <div class="text-end svg-line d-sm-block d-none">
+                                        <svg fill="none" height="18" viewbox="0 0 489 18" width="489"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path clip-rule="evenodd"
+                                                d="M207.684 1.72387C184.71 2.31462 162.007 3.04101 139.867 3.83514C108.526 4.95854 77.1964 6.12068 46.056 7.96073C36.2537 8.5418 26.2994 8.90979 16.5584 9.63613C10.4436 10.0913 2.33552 10.7401 1.27144 10.8757C0.714878 10.9531 0.472071 11.0695 0.393613 11.1082C-0.158042 11.3794 -0.0573853 11.6407 0.253993 11.8441C0.379035 11.9313 0.695229 12.1444 1.57297 12.1735C60.274 14.1588 120.299 10.285 179.071 9.87824C280.993 9.18096 386.003 11.9507 487.115 17.9938C487.998 18.0423 488.856 17.8001 488.979 17.4418C489.126 17.0931 488.489 16.7542 487.606 16.7057C386.322 10.6529 281.14 7.87347 179.022 8.58044C124.249 8.95813 68.3944 12.3575 13.5451 11.1953C14.8053 11.0985 16.0411 11.0016 17.1689 10.9144C26.8707 10.1881 36.7833 9.8298 46.5464 9.24873C77.6205 7.40868 108.886 6.24654 140.186 5.13282C179.022 3.73826 219.55 2.53737 260.397 1.97567C275.01 2.06283 289.574 2.15003 304.137 2.25656C335.643 2.48899 367.296 3.16691 398.728 4.07725C408.192 4.3581 417.656 4.64861 427.12 4.9004C430.258 4.98757 438.349 5.23932 439.477 5.21995C440.875 5.20058 441.144 4.73577 441.169 4.65829C441.242 4.48397 441.193 4.24185 440.507 4.03847C440.433 4.00942 439.992 3.91251 439.011 3.85441C381.86 0.426099 320.834 -0.145196 260.446 0.677985C196.749 0.319659 132.806 0.164636 69.2697 0C68.3601 0 67.6172 0.290577 67.6098 0.648903C67.6049 1.00723 68.338 1.29782 69.2476 1.3075C115.253 1.42371 161.492 1.53986 207.684 1.72387Z"
+                                                fill="#FF7E3E" fill-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <p
+                                class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
+                                Sassly-CRM in the past allowing you to focus more on your business or simply enjoy your
+                                newfound legal time to reflect leaving pen-and-paper.</p>
+                            <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                <a class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
+                                    data-block="button" href="javascript:void(0)">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Schedule a Demo</span>
+                                </a>
+                                <a class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
+                                    data-block="button" href="javascript:void(0)">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Contact Sales</span>
+                                </a>
+                            </div>
+                            <div class="tw-mt-132-px">
+                                <ul class="nav nav-pills d-inline-flex flex-wrap align-items-center tw-mb-8 tw-gap-4 active-bg-blue active-text-white"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800"
+                                    id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-data" aria-selected="true"
+                                            class="nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative active"
+                                            data-bs-target="#pills-data" data-bs-toggle="pill" id="pills-data-tab"
+                                            role="tab" type="button">data</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-Automation" aria-selected="false"
+                                            class="nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative"
+                                            data-bs-target="#pills-Automation" data-bs-toggle="pill"
+                                            id="pills-Automation-tab" role="tab" type="button">Automation</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-Pipeline" aria-selected="false"
+                                            class="nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative"
+                                            data-bs-target="#pills-Pipeline" data-bs-toggle="pill"
+                                            id="pills-Pipeline-tab" role="tab" type="button">Pipeline</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-Productivity" aria-selected="false"
+                                            class="nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative"
+                                            data-bs-target="#pills-Productivity" data-bs-toggle="pill"
+                                            id="pills-Productivity-tab" role="tab" type="button">Productivity</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button aria-controls="pills-Reporting" aria-selected="false"
+                                            class="nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative"
+                                            data-bs-target="#pills-Reporting" data-bs-toggle="pill"
+                                            id="pills-Reporting-tab" role="tab" type="button">Reporting</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="1000" id="pills-tabContent">
+                                    <div aria-labelledby="pills-data-tab" class="tab-pane fade show active"
+                                        id="pills-data" role="tabpanel" tabindex="0">
+                                        <div
+                                            class="shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02">
+                                            <div class="common-shadow-twentyTwo tw-rounded-xl">
+                                                <img alt="Dashboard Thumb" class="w-100 h-100"
+                                                    src="/assets/images/thumbs/banner-dashboard.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="pills-Automation-tab" class="tab-pane fade"
+                                        id="pills-Automation" role="tabpanel" tabindex="0">
+                                        <div
+                                            class="shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02">
+                                            <div class="common-shadow-twentyTwo tw-rounded-xl">
+                                                <img alt="Dashboard Thumb" class="w-100 h-100"
+                                                    src="/assets/images/thumbs/banner-dashboard.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="pills-Pipeline-tab" class="tab-pane fade" id="pills-Pipeline"
+                                        role="tabpanel" tabindex="0">
+                                        <div
+                                            class="shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02">
+                                            <div class="common-shadow-twentyTwo tw-rounded-xl">
+                                                <img alt="Dashboard Thumb" class="w-100 h-100"
+                                                    src="/assets/images/thumbs/banner-dashboard.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="pills-Productivity-tab" class="tab-pane fade"
+                                        id="pills-Productivity" role="tabpanel" tabindex="0">
+                                        <div
+                                            class="shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02">
+                                            <div class="common-shadow-twentyTwo tw-rounded-xl">
+                                                <img alt="Dashboard Thumb" class="w-100 h-100"
+                                                    src="/assets/images/thumbs/banner-dashboard.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="pills-Reporting-tab" class="tab-pane fade"
+                                        id="pills-Reporting" role="tabpanel" tabindex="0">
+                                        <div
+                                            class="shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02">
+                                            <div class="common-shadow-twentyTwo tw-rounded-xl">
+                                                <img alt="Dashboard Thumb" class="w-100 h-100"
+                                                    src="/assets/images/thumbs/banner-dashboard.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =============================== Banner Four End ================================== -->
+            <!-- ============================ Brand Three section start =========================== -->
+            <div class="brand-three">
+                <div class="container">
+                    <div class="text-center tw-mb-16" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="1000">
+                        <h4 class="mb-0 fw-bold line-clamp-1 font-caveat">Loved by next-gen B2B <span
+                                class="text-orange">SaaS</span> compnaies.....</h4>
+                    </div>
+                    <div class="brand-three-slider swiper left-right-gradient gradient-width-200 position-relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img1.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img2.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img3.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img4.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img5.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img6.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img7.png" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                                <div class="">
+                                    <img alt="Logo" src="/assets/images/thumbs/brand-three-img5.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================ Brand Three section end =========================== -->
+            <!-- ========================== About Two Section start =============================== -->
+            <section class="about-two py-120 position-relative z-1 overflow-hidden">
+                <img alt="Gradient" class="position-absolute tw-start-0 top-0 z-n1"
+                    src="/assets/images/bg/mash-gradient-bg3.png" />
+                <div class="container">
+                    <div class="row gy-4 flex-wrap-reverse">
+                        <div class="col-lg-6">
+                            <div class="position-relative">
+                                <div class="tw-ps-14 position-relative">
+                                    <img alt="Thumb" class="w-100" src="/assets/images/thumbs/about-four-thumb-1.png" />
+                                    <img alt=""
+                                        class="flower animate__wobble__two position-absolute tw-start-0 bottom-100 tw--m-24-px z-n1"
+                                        src="/assets/images/shapes/revenue-shape.png" />
+                                </div>
+                                <div class="position-absolute bottom-0 tw-start-0 tw-mb-6">
+                                    <img alt="Thumb" class="d-sm-block d-none tw-mb-4 animated-upDown"
+                                        src="/assets/images/thumbs/about-four-thumb-3.png" />
+                                    <img alt="Thumb"
+                                        class="d-block common-shadow-twentyFour tw-rounded-2xl animated-upDown animation-delay-1"
+                                        src="/assets/images/thumbs/about-four-thumb-2.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="ps-xl-5">
+                                <div class="tw-mb-10">
+                                    <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm">with
+                                        the world's favorite CRM</h4>
+                                    <h2 class="splitTextStyleOne text-heading text-capitalize">
+                                        improve <span class="text-crm">customer</span>
+                                        relationships today
+                                    </h2>
+                                    <p
+                                        class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
+                                        Sassly-CRM in the past allowing you to focus more on your business simply enjoy
+                                        your newfound legal time to reflect leaving pen</p>
+                                </div>
+                                <div class="accordion common-accordion" id="accordionExample">
+                                    <div class="accordion-item tw-px-40-px tw-rounded-xl section-bg-one border-0 tw-mb-6"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5 class="accordion-header">
+                                            <button aria-controls="collapseTwo" aria-expanded="false"
+                                                class="accordion-button tw-py-6 shadow-none px-0 bg-transparent h5 collapsed"
+                                                data-bs-target="#collapseTwo" data-bs-toggle="collapse"
+                                                data-img="/images/thumbs/xxxxx-thumb2.png" type="button">
+                                                Automate everything
+                                            </button>
+                                        </h5>
+                                        <div class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                            id="collapseTwo">
+                                            <div class="accordion-body ps-0 pt-0 pe-0 tw-pb-6">
+                                                <p class="text-neutral-500">ERP provides a complete leave management
+                                                    system for your HR. Upcoming holidays and remaining leave balances.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-px-40-px tw-rounded-xl section-bg-one border-0 tw-mb-6"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5 class="accordion-header">
+                                            <button aria-controls="collapseOne" aria-expanded="true"
+                                                class="accordion-button tw-py-6 shadow-none px-0 bg-transparent h5"
+                                                data-bs-target="#collapseOne" data-bs-toggle="collapse"
+                                                data-img="/images/thumbs/xxxxx-thumb1.png" type="button">
+                                                Deploy AI
+                                            </button>
+                                        </h5>
+                                        <div class="accordion-collapse collapse show" data-bs-parent="#accordionExample"
+                                            id="collapseOne">
+                                            <div class="accordion-body ps-0 pt-0 pe-0 tw-pb-6">
+                                                <p class="text-neutral-500">ERP provides a complete leave management
+                                                    system for your HR. Upcoming holidays and remaining leave balances.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-px-40-px tw-rounded-xl section-bg-one border-0 tw-mb-6"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5 class="accordion-header">
+                                            <button aria-controls="collapseThree" aria-expanded="false"
+                                                class="accordion-button tw-py-6 shadow-none px-0 bg-transparent h5 collapsed"
+                                                data-bs-target="#collapseThree" data-bs-toggle="collapse"
+                                                data-img="/images/thumbs/xxxxx-thumb3.png" type="button">
+                                                Powerful reporting
+                                            </button>
+                                        </h5>
+                                        <div class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                            id="collapseThree">
+                                            <div class="accordion-body ps-0 pt-0 pe-0 tw-pb-6">
+                                                <p class="text-neutral-500">ERP provides a complete leave management
+                                                    system for your HR. Upcoming holidays and remaining leave balances.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================== About Two Section end =============================== -->
+            <!-- ============================ Features Four section start ============================ -->
+            <section class="features-four">
+                <div class="py-120 tw-mx-48-px position-relative">
+                    <img alt="Mash Gradient BG" class="w-100 h-100 position-absolute top-0 tw-start-0 z-n1"
+                        src="/assets/images/bg/mash-gradient-bg2.png" />
+                    <div class="max-w-1820-px mx-auto">
+                        <div class="container">
+                            <div class="tw-mb-12 max-w-570-px">
+                                <h4 class="tw-mb-4 fw-bold line-clamp-1 font-caveat text-capitalize text-crm">with the
+                                    world's favorite CRM</h4>
+                                <h2 class="splitTextStyleOne text-heading text-capitalize">
+                                    improve customer relationships today
+                                </h2>
+                            </div>
+                            <div class="row g-32-px">
+                                <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="1000">
+                                    <div
+                                        class="features-four-item bg-white tw-rounded-40-px tw-px-54-px tw-pt-16 tw-pb-180-px position-relative h-100">
+                                        <h3 class="tw-mb-4 fw-semibold max-w-250-px splitTextStyleOne">Lead &amp;
+                                            Contact
+                                            Management</h3>
+                                        <p class="text-neutral-600 tw-text-lg fw-medium">Sassly-CRM in the past
+                                            allowing you to</p>
+                                        <a class="hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none"
+                                            href="javascript:void(0)">Transfer
+                                            domain</a>
+                                        <img alt="Thumbnail"
+                                            class="max-w-40-percent position-absolute top-0 tw-mt-5 tw-end-0 tw-me-5 common-shadow-twentyFive tw-rounded-2xl d-xl-block d-none"
+                                            src="/assets/images/thumbs/features-four-thumb101.png" />
+                                        <img alt="Thumbnail"
+                                            class="max-w-40-percent position-absolute bottom-0 tw-start-45 tw-me-5 common-shadow-twentyFive tw-rounded-2xl"
+                                            src="/assets/images/thumbs/features-four-thumb102.png" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="1200">
+                                    <div
+                                        class="features-four-item bg-white tw-rounded-40-px tw-px-54-px tw-pt-16 tw-pb-180-px position-relative h-100">
+                                        <h3 class="tw-mb-4 fw-semibold max-w-400-px splitTextStyleOne">Automate
+                                            Workflows and Monitor your Sales.</h3>
+                                        <p class="text-neutral-600 tw-text-lg fw-medium">Sassly-CRM in the past
+                                            allowing you to</p>
+                                        <a class="hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none"
+                                            href="javascript:void(0)">Transfer
+                                            domain</a>
+                                        <img alt="Thumbnail"
+                                            class="max-w-40-percent position-absolute bottom-0 tw-end-0 tw-me-8 tw-rounded-2xl"
+                                            src="/assets/images/thumbs/features-four-thumb2.png" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="1000">
+                                    <div
+                                        class="features-four-item bg-white tw-rounded-40-px tw-px-54-px tw-pt-16 tw-pb-180-px position-relative h-100">
+                                        <h3 class="tw-mb-4 fw-semibold max-w-400-px splitTextStyleOne">Artificial
+                                            Intelligence</h3>
+                                        <p class="text-neutral-600 tw-text-lg fw-medium">Sassly-CRM in the past
+                                            allowing you to</p>
+                                        <a class="hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none"
+                                            href="javascript:void(0)">Transfer
+                                            domain</a>
+                                        <img alt="Thumbnail"
+                                            class="max-w-40-percent position-absolute bottom-0 tw-end-0 tw-me-10 tw-rounded-2xl"
+                                            src="/assets/images/thumbs/features-four-thumb3.png" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="1200">
+                                    <div
+                                        class="features-four-item bg-white tw-rounded-40-px tw-px-54-px tw-pt-16 tw-pb-180-px position-relative h-100">
+                                        <h3 class="tw-mb-4 fw-semibold max-w-432-px splitTextStyleOne">involves
+                                            organizing, tracking, and optimizing sales</h3>
+                                        <p class="text-neutral-600 tw-text-lg fw-medium">Sassly-CRM in the past
+                                            allowing you to</p>
+                                        <a class="hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none"
+                                            href="javascript:void(0)">Transfer
+                                            domain</a>
+                                        <img alt="Thumbnail"
+                                            class="max-w-40-percent position-absolute bottom-0 tw-end-0 tw-me-8 tw-rounded-2xl"
+                                            src="/assets/images/thumbs/features-four-thumb4.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ============================ Features Four section End ============================ -->
+            <!-- ========================== About Four Two Section start =============================== -->
+            <section class="about-four-two py-120 position-relative z-1 overflow-hidden">
+                <img alt="Gradient" class="position-absolute tw-start-0 top-0 z-n1"
+                    src="/assets/images/bg/mash-gradient-bg3.png" />
+                <div class="container">
+                    <div class="row gy-4 flex-wrap-reverse">
+                        <div class="col-lg-6">
+                            <div class="position-relative">
+                                <div class="tw-ps-14 position-relative">
+                                    <img alt="Thumb" class="w-100" src="/assets/images/thumbs/about-four-two-thumb.png" />
+                                </div>
+                                <div
+                                    class="position-absolute bottom-0 tw-start-0 d-flex w-100 justify-content-between align-items-end">
+                                    <img alt="Thumb"
+                                        class="d-block common-shadow-twentyFour tw-rounded-2xl animated-upDown"
+                                        src="/assets/images/thumbs/about-four-thumb-2.png" />
+                                    <img alt="Thumb"
+                                        class="d-block tw-ms-8 tw-rounded-2xl animated-upDown animation-delay-1"
+                                        src="/assets/images/thumbs/robot-img.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="ps-xl-5">
+                                <div class="tw-mb-10">
+                                    <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
+                                        with the world's favorite CRM</h4>
+                                    <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
+                                        Simple set up,easy to stay organized
+                                    </h2>
+                                    <p
+                                        class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
+                                        Sassly-CRM in the past allowing you to focus more on your business simply enjoy
+                                        your newfound legal time to reflect leaving pen</p>
+                                </div>
+                                <div class="d-flex flex-column tw-gap-5">
+                                    <div class="d-flex align-items-center tw-gap-5" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                        <span
+                                            class="tw-w-8 tw-h-8 bg-neutral-200 text-heading d-flex justify-content-center align-items-center rounded-circle">
+                                            <i class="ph-bold ph-check"></i>
+                                        </span>
+                                        <p class="fw-bold text-heading tw-text-lg">Customizable pipeline views</p>
+                                    </div>
+                                    <div class="d-flex align-items-center tw-gap-5" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                                        <span
+                                            class="tw-w-8 tw-h-8 bg-neutral-200 text-heading d-flex justify-content-center align-items-center rounded-circle">
+                                            <i class="ph-bold ph-check"></i>
+                                        </span>
+                                        <p class="fw-bold text-heading tw-text-lg">Increase your lead-to-deal
+                                            conversion rates.</p>
+                                    </div>
+                                    <div class="d-flex align-items-center tw-gap-5" data-aos="fade-up"
+                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                        <span
+                                            class="tw-w-8 tw-h-8 bg-neutral-200 text-heading d-flex justify-content-center align-items-center rounded-circle">
+                                            <i class="ph-bold ph-check"></i>
+                                        </span>
+                                        <p class="fw-bold text-heading tw-text-lg">Streamline data and tracking between
+                                            softwares</p>
+                                    </div>
+                                </div>
+                                <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="900">
+                                    <a class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
+                                        data-block="button" href="/pricing-plan">
+                                        <span class="button__flair"></span>
+                                        <span class="button__label">Start your free trial</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================== About Four Two Section end =============================== -->
+            <!-- ========================== About Four Three Section start =============================== -->
+            <section class="about-four-three position-relative z-1 overflow-hidden">
+                <div class="gradient-bg-top-bottom pb-120 tw-mx-48-px">
+                    <img alt="Gradient" class="position-absolute tw-end-0 bottom-100 z-n1"
+                        src="/assets/images/bg/mash-gradient-bg4.png" />
+                    <div class="container">
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <div class="pe-xl-5">
+                                    <div class="tw-mb-10">
+                                        <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm">
+                                            with the world's favorite CRM</h4>
+                                        <h2 class="splitTextStyleOne text-heading text-capitalize">
+                                            Perfectly-timed and personal outreach
+                                        </h2>
+                                        <p
+                                            class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
+                                            Sassly-CRM in the past allowing you to focus more on your business simply
+                                            enjoy your newfound legal time to reflect leaving pen</p>
+                                    </div>
+                                    <div class="accordion common-accordion" id="accordionExampleTwo">
+                                        <div class="accordion-item tw-px-40-px tw-rounded-xl bg-white border-0 tw-mb-6"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5 class="accordion-header">
+                                                <button aria-controls="collapseTwoo" aria-expanded="false"
+                                                    class="accordion-button tw-py-6 shadow-none px-0 bg-transparent h5 collapsed"
+                                                    data-bs-target="#collapseTwoo" data-bs-toggle="collapse"
+                                                    data-img="/images/thumbs/xxxxx-thumb2.png" type="button">
+                                                    Automate everything
+                                                </button>
+                                            </h5>
+                                            <div class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExampleTwo" id="collapseTwoo">
+                                                <div class="accordion-body ps-0 pt-0 pe-0 tw-pb-6">
+                                                    <p class="text-neutral-500">ERP provides a complete leave
+                                                        management system for your HR. Upcoming holidays and remaining
+                                                        leave balances.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-px-40-px tw-rounded-xl bg-white border-0 tw-mb-6"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5 class="accordion-header">
+                                                <button aria-controls="collapseOnee" aria-expanded="true"
+                                                    class="accordion-button tw-py-6 shadow-none px-0 bg-transparent h5"
+                                                    data-bs-target="#collapseOnee" data-bs-toggle="collapse"
+                                                    data-img="/images/thumbs/xxxxx-thumb1.png" type="button">
+                                                    Deploy AI
+                                                </button>
+                                            </h5>
+                                            <div class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExampleTwo" id="collapseOnee">
+                                                <div class="accordion-body ps-0 pt-0 pe-0 tw-pb-6">
+                                                    <p class="text-neutral-500">ERP provides a complete leave
+                                                        management system for your HR. Upcoming holidays and remaining
+                                                        leave balances.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item tw-px-40-px tw-rounded-xl bg-white border-0 tw-mb-6"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <h5 class="accordion-header">
+                                                <button aria-controls="collapseThreee" aria-expanded="false"
+                                                    class="accordion-button tw-py-6 shadow-none px-0 bg-transparent h5 collapsed"
+                                                    data-bs-target="#collapseThreee" data-bs-toggle="collapse"
+                                                    data-img="/images/thumbs/xxxxx-thumb3.png" type="button">
+                                                    Powerful reporting
+                                                </button>
+                                            </h5>
+                                            <div class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExampleTwo" id="collapseThreee">
+                                                <div class="accordion-body ps-0 pt-0 pe-0 tw-pb-6">
+                                                    <p class="text-neutral-500">ERP provides a complete leave
+                                                        management system for your HR. Upcoming holidays and remaining
+                                                        leave balances.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="position-relative">
+                                    <div class="tw-ps-14 position-relative">
+                                        <img alt="Thumb" class="w-100"
+                                            src="/assets/images/thumbs/about-four-three-thumb1.png" />
+                                    </div>
+                                    <div class="position-absolute bottom-0 tw-start-0 tw-mb-6">
+                                        <img alt="Thumb"
+                                            class="common-shadow-twentyFour tw-rounded-2xl tw-mb-4 animated-upDown"
+                                            src="/assets/images/thumbs/about-four-three-thumb2.png" />
+                                        <img alt="Thumb"
+                                            class="d-block tw-ms-8 tw-rounded-2xl animated-upDown animation-delay-1"
+                                            src="/assets/images/thumbs/robot-img.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================== About Four Three Section end =============================== -->
+            <!-- ============================ Testimonials Four section start ============================= -->
+            <section class="testimonials-four py-120 position-relative z-1">
+                <img alt="Gradient BG" class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1"
+                    src="/assets/images/bg/mash-gradient-bg5.png" />
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="col-lg-6">
+                            <div class="">
+                                <div class="tw-mb-10">
+                                    <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm">with
+                                        the world's favorite CRM</h4>
+                                    <h2 class="splitTextStyleOne text-white text-capitalize">
+                                        improve customer relationships today
+                                    </h2>
+                                    <p
+                                        class="splitTextStyleOne text-neutral-300 tw-mt-8 max-w-570-px fw-normal tw-text-lg">
+                                        Sassly-CRM in the past allowing you to focus more on your business simply enjoy
+                                        your newfound legal time to reflect leaving pen</p>
+                                </div>
+                                <div class="tw-mt-12 d-flex align-items-center tw-gap-405 flex-sm-nowrap flex-wrap">
+                                    <div
+                                        class="tw-rounded-xl bg-white-06 tw-py-205 tw-px-5 d-flex align-items-center tw-gap-4">
+                                        <span>
+                                            <img alt="Icon" src="/assets/images/icons/testimonials-four-icon1.png" />
+                                        </span>
+                                        <div class="">
+                                            <div class="d-flex align-items-center tw-gap-05">
+                                                <span class="text-orange tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-orange tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-orange tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-orange tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-orange tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                            </div>
+                                            <div class="d-flex align-items-center tw-gap-2">
+                                                <span class="tw-text-xs text-white fw-bold">4.3</span>
+                                                <span class="tw-text-xs text-white fw-normal">score, 9 reviews</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="tw-rounded-xl bg-white-06 tw-py-205 tw-px-5 d-flex align-items-center tw-gap-4">
+                                        <span>
+                                            <img alt="Icon" src="/assets/images/icons/testimonials-four-icon2.png" />
+                                        </span>
+                                        <div class="">
+                                            <div class="d-flex align-items-center tw-gap-05">
+                                                <span class="text-green tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-green tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-green tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-green tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                                <span class="text-green tw-text-lg"><i
+                                                        class="ph-fill ph-star"></i></span>
+                                            </div>
+                                            <div class="d-flex align-items-center tw-gap-2">
+                                                <span class="tw-text-xs text-white fw-bold">4.3</span>
+                                                <span class="tw-text-xs text-white fw-normal">score, 9 reviews</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="testimonials-four-slider swiper position-relative">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="600">
+                                        <div class="bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12">
+                                            <div class="box-layer-two tw-p-54-px tw-rounded-2xl bg-white">
+                                                <span
+                                                    class="tw-mb-5 animate-left-right animation-delay-3 tw-duration-200">
+                                                    <img alt="Logo" class="animate__flipInY"
+                                                        src="/assets/images/thumbs/website-owner-img1.png" />
+                                                </span>
+                                                <p
+                                                    class="text-heading h3 fw-medium font-body tw-leading-153 animate-left-right animation-delay-2 tw-duration-200">
+                                                    â€œSasstech hires great people from a widely variety of backgrounds,
+                                                    which simply makes our compan stronger, and we couldn't be prouder
+                                                    of that.â€</p>
+                                                <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
+                                                <div
+                                                    class="d-flex align-items-center justify-content-between animate-left-right animation-delay-3">
+                                                    <div class="d-flex align-items-center tw-gap-6 tw-duration-200">
+                                                        <div class="tw-h-84-px tw-w-84-px rounded-circle">
+                                                            <img alt="Image" class="w-100 h-100 object-fit-cover"
+                                                                src="/assets/images/thumbs/testimonials-short-img1.png" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h6 class="tw-mb-2">Robiul Hasan</h6>
+                                                            <span class="text-neutral-600">
+                                                                <span class="fw-semibold text-blue">CEO</span>
+                                                                and Founder
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <img alt="Rating" class="" src="/assets/images/icons/ratings.svg" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="600">
+                                        <div class="bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12">
+                                            <div class="box-layer-two tw-p-54-px tw-rounded-2xl bg-white">
+                                                <span
+                                                    class="tw-mb-5 animate-left-right animation-delay-3 tw-duration-200">
+                                                    <img alt="Logo" class="animate__flipInY"
+                                                        src="/assets/images/thumbs/website-owner-img2.png" />
+                                                </span>
+                                                <p
+                                                    class="text-heading h3 fw-medium font-body tw-leading-153 animate-left-right animation-delay-2 tw-duration-200">
+                                                    â€œSasstech hires great people from a wide range of backgrounds,
+                                                    which simply strengthens our company, and we couldn't be prouder of
+                                                    that,â€ the company says.</p>
+                                                <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
+                                                <div
+                                                    class="d-flex align-items-center justify-content-between animate-left-right animation-delay-3">
+                                                    <div class="d-flex align-items-center tw-gap-6 tw-duration-200">
+                                                        <div class="tw-h-84-px tw-w-84-px rounded-circle">
+                                                            <img alt="Image" class="w-100 h-100 object-fit-cover"
+                                                                src="/assets/images/thumbs/testimonials-short-img2.png" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h6 class="tw-mb-2">John Doe</h6>
+                                                            <span class="text-neutral-600">
+                                                                <span class="fw-semibold text-blue">CEO</span>
+                                                                and Founder
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <img alt="Rating" class="" src="/assets/images/icons/ratings.svg" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="600">
+                                        <div class="bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12">
+                                            <div class="box-layer-two tw-p-54-px tw-rounded-2xl bg-white">
+                                                <span
+                                                    class="tw-mb-5 animate-left-right animation-delay-3 tw-duration-200">
+                                                    <img alt="Logo" class="animate__flipInY"
+                                                        src="/assets/images/thumbs/website-owner-img3.png" />
+                                                </span>
+                                                <p
+                                                    class="text-heading h3 fw-medium font-body tw-leading-153 animate-left-right animation-delay-2 tw-duration-200">
+                                                    "Sasstech brings together talented individuals from diverse
+                                                    backgrounds, strengthening our company in the best way possible.
+                                                </p>
+                                                <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
+                                                <div
+                                                    class="d-flex align-items-center justify-content-between animate-left-right animation-delay-3">
+                                                    <div class="d-flex align-items-center tw-gap-6 tw-duration-200">
+                                                        <div class="tw-h-84-px tw-w-84-px rounded-circle">
+                                                            <img alt="Image" class="w-100 h-100 object-fit-cover"
+                                                                src="/assets/images/thumbs/testimonials-short-img3.png" />
+                                                        </div>
+                                                        <div class="">
+                                                            <h6 class="tw-mb-2">James anderson</h6>
+                                                            <span class="text-neutral-600">
+                                                                <span class="fw-semibold text-blue">CEO</span>
+                                                                and Founder
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <img alt="Rating" class="" src="/assets/images/icons/ratings.svg" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="tw-w-84-px tw-h-84-px rounded-circle bg-white d-flex flex-column tw-gap-2 justify-content-center align-items-center position-absolute tw-end-0 top-50 translate-middle-y z-2 common-shadow-twentyFour tw-me-16">
+                                <button
+                                    class="tw-text-lg tw-leading-none text-heading hover-text-main-600 tw-px-2 tw-pt-2"
+                                    id="testimonials-four-next" type="button">
+                                    <i class="ph-bold ph-caret-up"></i>
+                                </button>
+                                <button
+                                    class="tw-text-lg tw-leading-none text-heading hover-text-main-600 tw-px-2 tw-pb-2"
+                                    id="testimonials-four-prev" type="button">
+                                    <i class="ph-bold ph-caret-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ============================ Testimonials Four section End ============================= -->
+            <!-- ================================ Integrated apps start ====================================== -->
+            <section class="pt-120 pb-120 overflow-hidden position-relative">
+                <img alt="Gradient BG" class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1"
+                    src="/assets/images/bg/mash-gradient-bg6.png" />
+                <div class="container max-w-1290-px">
+                    <div class="row gy-5 align-items-center flex-wrap-reverse">
+                        <div class="col-xl-6" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="2000">
+                            <div class="position-relative tw-p-12 text-center">
+                                <img alt="Bg Round" src="/assets/images/shapes/rounded-circle.png" />
+                                <img alt="Icons" class="position-absolute top-50 start-50 animation-rotate-right"
+                                    src="/assets/images/shapes/round-icons-big.png" />
+                                <img alt="Icons" class="position-absolute top-50 start-50 animation-rotate-left"
+                                    src="/assets/images/shapes/round-icons-small.png" />
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h3 class=""><span class="counter">2</span>k+</h3>
+                                    <span class="text-heading">Integration</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="">
+                                <div class="text-start mx-auto tw-mb-12">
+                                    <div class="tw-mb-10">
+                                        <h4
+                                            class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
+                                            with the world's favorite CRM</h4>
+                                        <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
+                                            Simple set up,easy to stay organized
+                                        </h2>
+                                        <p
+                                            class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
+                                            Sassly-CRM in the past allowing you to focus more on your business simply
+                                            enjoy your newfound legal time to reflect leaving pen</p>
+                                    </div>
+                                    <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="900">
+                                        <a class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
+                                            data-block="button" href="/pricing-plan">
+                                            <span class="button__flair"></span>
+                                            <span class="button__label">See all Integrations</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================================ Integrated apps End ====================================== -->
+            <!-- ================== Counter Up section Start ====================== -->
+            <section class="pt-120">
+                <div class="container">
+                    <div class="tw-mb-10 max-w-570-px mx-auto text-center">
+                        <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm">with the world's
+                            favorite CRM</h4>
+                        <h2 class="splitTextStyleOne text-heading text-capitalize">
+                            Trueted CRM tools by the <span class="fw-normal"> happy users</span>
+                        </h2>
+                    </div>
+                    <div
+                        class="border-top border-bottom d-flex justify-content-center flex-sm-nowrap flex-wrap tw-gap-148-px">
+                        <div
+                            class="text-center tw-pt-13 tw-pb-9 d-flex flex-column justify-content-center align-items-center tw-transition tw-duration-200">
+                            <h2 class="h1">
+                                <span class="counter">282</span><span class="">+</span>
+                            </h2>
+                            <span class="h6 text-uppercase tw-text-base tw-mt-5 d-sm-block d-none">worldwide
+                                clients</span>
+                        </div>
+                        <div class="d-flex">
+                            <div class="tw-w-1-px h-100 bg-neutral-200"></div>
+                        </div>
+                        <div
+                            class="text-center tw-pt-13 tw-pb-9 d-flex flex-column justify-content-center align-items-center tw-transition tw-duration-200">
+                            <h2 class="h1">
+                                <span class="counter">95</span><span class="">%</span>
+                            </h2>
+                            <span class="h6 text-uppercase tw-text-base tw-mt-5 d-sm-block d-none">worldwide
+                                clients</span>
+                        </div>
+                        <div class="d-flex">
+                            <div class="tw-w-1-px h-100 bg-neutral-200"></div>
+                        </div>
+                        <div
+                            class="text-center tw-pt-13 tw-pb-9 d-flex flex-column justify-content-center align-items-center tw-transition tw-duration-200">
+                            <h2 class="h1">
+                                <span class="counter">282</span><span class="">+</span>
+                            </h2>
+                            <span class="h6 text-uppercase tw-text-base tw-mt-5 d-sm-block d-none">worldwide
+                                clients</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================== Counter Up section End ====================== -->
+            <!-- ================== Driven section Start ====================== -->
+            <section class="py-120">
+                <div class="container">
+                    <div class="">
+                        <img alt="Thumb" src="/assets/images/thumbs/driven-img.png" />
+                        <div class="max-w-780-px text-center mx-auto">
+                            <div class="tw-mb-10 max-w-672-px mx-auto text-center">
+                                <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm">with the
+                                    world's favorite CRM</h4>
+                                <h2 class="splitTextStyleOne text-heading text-capitalize">
+                                    The <span class="fw-normal">CRM</span> behind thousand of companies
+                                </h2>
+                            </div>
+                            <div class="d-flex align-items-center tw-gap-4 justify-content-center tw-mt-10">
+                                <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <a class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
+                                        data-block="button" href="javascript:void(0)">
+                                        <span class="button__flair"></span>
+                                        <span class="button__label">Schedule a Demo</span>
+                                    </a>
+                                    <a class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
+                                        data-block="button" href="javascript:void(0)">
+                                        <span class="button__flair"></span>
+                                        <span class="button__label">Contact Sales</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================== Driven section End ====================== -->
+            <!-- ========================== Footer Three Section Start ========================= -->
+            <section class="footer-three footer-akkurate-dark">
+                <div class="py-120">
+                    <div class="container">
+                        <div class="row gy-5 align-items-start">
+                            <div class="col-xl-4 col-lg-5 col-sm-6" data-aos="fade-up" data-aos-duration="600">
+                                <div class="pe-xl-4">
+                                    <img src="https://res.cloudinary.com/ddnxhn442/image/upload/v1772783827/Akkurate_white_text_rt7yoy.png" alt="Akkurate" style="height: 55px; width: auto; margin-bottom: 1rem;" />
+                                    <p class="text-heading fw-semibold tw-mb-6">Reach out to our team and we'll get back to you within a day.</p>
+                                    <div class="d-flex flex-column tw-gap-4">
+                                        <a class="text-heading fw-semibold hover-text-main-600" href="tel:+919841663161">+91 9841663161</a>
+                                        <a class="text-heading fw-semibold hover-text-main-600" href="mailto:growth@akkurate.in">growth@akkurate.in</a>
+                                        <p class="text-heading fw-semibold tw-mb-0">No. 63/44, 3rd Cross Street, Ranganadhapuram, West Tambaram, Chennai- 600 045</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="700">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Digital Marketing</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">GEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">AEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">SEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Google Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Meta Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Linkedin Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Social Media Marketing</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Youtube Marketing</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Google My Business Page</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="800">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Website Development</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">App Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Website Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Web Application</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">CMS Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">E-Commerce Service</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Website Design</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="900">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Branding</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Logo Design</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Content Creation</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">UI/UX Design</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Motion Graphics</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Explainer Video</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Corporate Video</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Reels Making</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="border-top border-neutral-200 border-0 tw-py-8">
+                        <div class="container container-two">
+                            <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
+                                <p class="text-white text-line-1 fw-semibold mb-0">&copy; 2026 Akkurate. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================== Footer Three Section End ========================= -->
+        </div>
+    </div>
+    
+    <?php include 'partials/javascript.php'; ?>
+
+</body>
+
+</html>

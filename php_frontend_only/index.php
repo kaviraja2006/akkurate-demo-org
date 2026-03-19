@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+    <html lang="en" class="home-one">
+
+    <head>
+        <?php include 'partials/title-meta.php'; ?>
+        
+        <?php include 'partials/head-css.php'; ?>
+    </head>
+
+<body class="overflow-x-hidden w-100">
+
+    <?php include 'partials/common-content.php'; ?>
+
+    <div id="smooth-wrapper">
+        <!-- ========================== Top Header Start ============================== -->
+        <div class="bg-main-600 tw-py-205 d-none">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <p class="text-white bg-white-13 d-inline-block tw-py-1 tw-px-5 rounded-pill fw-normal">We're
+                        introducing an exceptionally crafted UI/UX template on ThemeForest, designed to deliver
+                        outstanding conversion results!</p>
+                </div>
+            </div>
+        </div>
+        <!-- ========================== Top Header End ============================== -->
+        <!-- ==================== Header Start Here ==================== -->
+        <header class="header bg-white transition-all">
+            <div class="container container-two">
+                <nav class="d-flex align-items-center justify-content-between position-relative">
+                    <!-- Logo Start -->
+                    <div class="logo">
+                        <a class="link hover--translate-y-1 active--translate-y-scale-9" href="/">
+                            <img src="https://res.cloudinary.com/ddnxhn442/image/upload/v1772783818/Akkurate_Blue_e3rv52.png" alt="Akkurate" style="height: 40px; width: auto;" />
+                        </a>
+                    </div>
+                    <!-- Logo End  -->
+                    <!-- Menu Start  -->
+                    <div class="header-menu d-lg-block d-none">
+                        <!-- Nav menu Start -->
+                        <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
+                                                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100" href="/">Home</a>
+                                </li>
+                                <li class="nav-menu__item has-submenu position-relative services-mega-parent">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Services</a>
+                                    <div class="services-mega-dropdown">
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Digital Marketing</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">Generative Engine Optimization(GEO)</a></li>
+                                                <li><a href="#">Answer Engine Optimization(AEO)</a></li>
+                                                <li><a href="#">Search Engine Optimization(SEO)</a></li>
+                                                <li><a href="#">Google Ads</a></li>
+                                                <li><a href="#">Meta Ads</a></li>
+                                                <li><a href="#">Linkedin Ads</a></li>
+                                                <li><a href="#">Social Media Marketing</a></li>
+                                                <li><a href="#">Youtube Marketing</a></li>
+                                                <li><a href="#">Google My Business Page</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Website Development</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">App Development</a></li>
+                                                <li><a href="#">Website Development</a></li>
+                                                <li><a href="#">Web Application</a></li>
+                                                <li><a href="#">CMS Development</a></li>
+                                                <li><a href="#">E-Commerce Service</a></li>
+                                                <li><a href="#">Website Design</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="services-mega-col">
+                                            <h4 class="services-mega-heading">Branding</h4>
+                                            <ul class="services-mega-list">
+                                                <li><a href="#">Logo Design</a></li>
+                                                <li><a href="#">Content Creation</a></li>
+                                                <li><a href="#">UI/UX Design</a></li>
+                                                <li><a href="#">Motion Graphics</a></li>
+                                                <li><a href="#">Explainer Video</a></li>
+                                                <li><a href="#">Corporate Video</a></li>
+                                                <li><a href="#">Reels Making</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                                                <li class="nav-menu__item has-submenu position-relative">
+                                    <a class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
+                                        href="javascript:void(0)">Industries</a>
+                                    <ul
+                                        class="industries-dropdown nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">B2B Marketing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Eduction</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Healthcare</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Hospitality</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Real Estate</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Jewellery</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Travel</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Food</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Clothing</a>
+                                        </li>
+                                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                            <a class="nav-submenu__link text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded" href="#">Manufacture</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/project-details">Our Work</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/blog">Blog</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/about">About Us</a>
+                                </li>
+                                <li class="nav-menu__item">
+                                    <a class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                                        href="/contact">Contact Us</a>
+                                </li>
+                            </ul>
+                        <!-- Nav menu End  -->
+                    </div>
+                    <!-- Menu End  -->
+                    <!-- Header Right start -->
+                    <div class="d-flex align-items-center tw-gap-6">
+                        <button class="toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9" type="button">
+                            <i class="ph ph-list"></i>
+                        </button>
+                    </div>
+                    <!-- Header Right End  -->
+                </nav>
+            </div>
+        </header>
+        <!-- ==================== Header End Here ==================== -->
+        <div class="tw-pb-15" id="smooth-content">
+            <!-- ============================== Top Features Section start ============================== -->
+            <div class="bg-white border-top border-neutral-100 tw-py-4 common-shadow-one d-none">
+                <div class="container">
+                    <div class="top-features-slider overflow-hidden left-right-gradient position-relative">
+                        <div class="d-flex align-items-center tw-gap-4">
+                            <img alt="Icon" src="/assets/images/icons/chart-icon.svg" />
+                            <span class="text-heading fw-medium tw-text-base">Perfect solution for success</span>
+                        </div>
+                        <div class="d-flex align-items-center tw-gap-4">
+                            <img alt="Icon" src="/assets/images/icons/chart-icon.svg" />
+                            <span class="text-heading fw-medium tw-text-base">Excellence in tailored IT Srvices</span>
+                        </div>
+                        <div class="d-flex align-items-center tw-gap-4">
+                            <img alt="Icon" src="/assets/images/icons/chart-icon.svg" />
+                            <span class="text-heading fw-medium tw-text-base">Elevate your brand sasstech</span>
+                        </div>
+                        <div class="d-flex align-items-center tw-gap-4">
+                            <img alt="Icon" src="/assets/images/icons/chart-icon.svg" />
+                            <span class="text-heading fw-medium tw-text-base">Achieve business golas solution</span>
+                        </div>
+                        <div class="d-flex align-items-center tw-gap-4">
+                            <img alt="Icon" src="/assets/images/icons/chart-icon.svg" />
+                            <span class="text-heading fw-medium tw-text-base">Innnovation in every presence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================== Top Features Section end ============================== -->
+            <!-- ============================= Banner Section Start ============================== -->
+            <section class="banner tw-py-80-px overflow-hidden section-bg-three position-relative">
+                <img alt="Shape" class="position-absolute top-0 tw-end-0 tw-me-12-percent"
+                    src="/assets/images/shapes/sqaure_shape.png" />
+                <div class="container max-w-1400-px">
+                    <div class="row gy-4 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="">
+                                <h1 class="splitTextStyleOne fw-light tw-leading-104">
+                                    <span class="d-inline-block">Accurate </span>
+                                    <span class="d-inline-block fw-semibold"> Marketing </span>
+                                    <span class="d-inline-block fw-semibold">That</span>
+                                    <span class="d-inline-block fw-semibold">Performs</span>
+                                    <span class="d-inline-block fw-semibold">Like</span>
+                                    <span class="d-inline-block">Revenue</span>
+                                </h1>
+                                <p class="text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8 splitTextStyleOne">
+                                    Data-first digital growth systems built for brands that want measurable outcomes, not vanity metrics.</p>
+                                <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
+                                    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                        <a class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
+                                            data-block="button" href="/register">
+                                            <span class="button__flair"></span>
+                                            <span class="button__label">Get Started</span>
+                                        </a>
+                                    </div>
+                                    <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <div class="d-flex align-items-center tw-gap-4">
+                                            <div class="d-flex align-items-center">
+                                                <div
+                                                    class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative z-2">
+                                                    <img alt="Client Image" class="w-100 h-100 object-fit-cover"
+                                                        src="/assets/images/thumbs/client-img1.png" />
+                                                </div>
+                                                <div
+                                                    class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px z-1">
+                                                    <img alt="Client Image" class="w-100 h-100 object-fit-cover"
+                                                        src="/assets/images/thumbs/client-img2.png" />
+                                                </div>
+                                                <div
+                                                    class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px">
+                                                    <img alt="Client Image" class="w-100 h-100 object-fit-cover"
+                                                        src="/assets/images/thumbs/client-img3.png" />
+                                                </div>
+                                            </div>
+                                            <span class="h5 counter">2.3M+</span>
+                                        </div>
+                                        <p class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter">5000+
+                                            Client reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="tw-ps-98-px position-relative tw-pb-8">
+                                <div class="position-relative z-1">
+                                    <img alt="" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="1000" src="/assets/images/thumbs/banner-img.png" />
+                                </div>
+                                <!-- Review -->
+                                <div
+                                    class="bg-white tw-rounded-3xl tw-p-6 max-w-218-px position-absolute end-0 top-0 w-100 tw--mt-8-px tw--me-8-px common-shadow-two z-1 d-none d-lg-block">
+                                    <div
+                                        class="d-inline-flex align-items-center tw-gap-1 bg-green tw-py-05 tw-px-3 rounded-pill position-absolute top-0 tw-end-0 tw--mt-12-px tw--me-12-px">
+                                        <span class="text-white fw-bold tw-text-sm">4.9</span>
+                                        <span class="text-white d-flex">
+                                            <img alt="" src="/assets/images/icons/star.svg" />
+                                        </span>
+                                    </div>
+                                    <img alt="" class="" src="/assets/images/icons/ratings.svg" />
+                                    <div class="tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px">
+                                        <span class="tw-text-lg text-heading fw-semibold">Trust pilot</span>
+                                        <img alt="" src="/assets/images/icons/verified-icon.svg" />
+                                    </div>
+                                </div>
+                                <!-- Review -->
+                                <!-- Experience -->
+                                <div class="bg-main-600 tw-p-12 tw-pe-6 d-inline-block tw-rounded-xl clip-path-one position-absolute bottom-0 tw-end-0 z-1 tw--me-70-px tw-mb-205 d-none d-lg-inline-block"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="900">
+                                    <h2 class="text-white counter">8+</h2>
+                                    <span class="text-white">Years Experience</span>
+                                </div>
+                                <!-- Experience -->
+                                <!-- Revenue -->
+                                <div class="bg-white-7 tw-py-6 tw-px-7 tw-rounded-2xl border border-white bg-blur-20 position-absolute bottom-0 tw-start-0 z-1 d-flex align-items-center tw-gap-8 common-shadow-two d-none d-md-flex"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <img alt=""
+                                        class="flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1"
+                                        src="/assets/images/shapes/revenue-shape.png" />
+                                    <div class="">
+                                        <div class="tab-content" id="pills-tabContent">
+                                            <div aria-labelledby="pills-Daily-tab" class="tab-pane fade show active"
+                                                id="pills-Daily" role="tabpanel" tabindex="0">
+                                                <span
+                                                    class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
+                                                <h5 class="tw-mb-6 counter">$4820.00</h5>
+                                            </div>
+                                            <div aria-labelledby="pills-Weekly-tab" class="tab-pane fade" id="pills-Weekly"
+                                                role="tabpanel" tabindex="0">
+                                                <span
+                                                    class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
+                                                <h5 class="tw-mb-6 counter">$2445.00</h5>
+                                            </div>
+                                            <div aria-labelledby="pills-Monthly-tab" class="tab-pane fade"
+                                                id="pills-Monthly" role="tabpanel" tabindex="0">
+                                                <span
+                                                    class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
+                                                <h5 class="tw-mb-6 counter">$8221.00</h5>
+                                            </div>
+                                        </div>
+                                        <ul class="nav nav-pills common-tab d-flex align-items-center tw-gap-205"
+                                            id="pills-tab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button aria-controls="pills-Daily" aria-selected="true"
+                                                    class="nav-link bg-transparent hover--translate-y-1 tw-transition-all tw-duration-300 text-neutral-500 tw-text-sm fw-medium p-0 active"
+                                                    data-bs-target="#pills-Daily" data-bs-toggle="pill" id="pills-Daily-tab"
+                                                    role="tab" type="button">Daily</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button aria-controls="pills-Weekly" aria-selected="false"
+                                                    class="nav-link bg-transparent hover--translate-y-1 tw-transition-all tw-duration-300 text-neutral-500 tw-text-sm fw-medium p-0"
+                                                    data-bs-target="#pills-Weekly" data-bs-toggle="pill"
+                                                    id="pills-Weekly-tab" role="tab" type="button">Weekly</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button aria-controls="pills-Monthly" aria-selected="false"
+                                                    class="nav-link bg-transparent hover--translate-y-1 tw-transition-all tw-duration-300 text-neutral-500 tw-text-sm fw-medium p-0"
+                                                    data-bs-target="#pills-Monthly" data-bs-toggle="pill"
+                                                    id="pills-Monthly-tab" role="tab" type="button">Monthly</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="">
+                                        <img alt="" src="/assets/images/thumbs/revenue-chart.png" />
+                                    </div>
+                                </div>
+                                <!-- Revenue -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ============================= Banner Section End ============================== -->
+            <!-- ============================ brand slider start =========================== -->
+            <div class="brand-slider-wrapper overflow-hidden">
+                <div class="brand-slider swiper">
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img1.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img2.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img3.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img4.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img5.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img6.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img7.png" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
+                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="text-center">
+                                <img alt="Logo" class="" src="/assets/images/thumbs/brand-img3.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================ brand slider end =========================== -->
+            <!-- ========================== About section start ============================= -->
+            <section class="py-120 drag-rotate-element-section">
+                <div class="container">
+                    <div class="tw-rounded-50-px gradient-bg-one tw-px-36-px tw-pt-9">
+                        <div class="row gy-4">
+                            <div class="col-lg-6">
+                                <div class="tw-pe-12 position-relative">
+                                    <div class="row g-2">
+                                        <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <div
+                                                class="bg-main-600 tw-rounded-3xl tw-p-8 text-center h-100 d-flex flex-column justify-content-center align-items-center">
+                                                <h3 class="text-white d-inline-flex align-items-center tw-gap-3 tw-mb-9">
+                                                    <span class="d-flex">
+                                                        <img alt="" src="/assets/images/icons/arrow-up.svg" />
+                                                    </span>
+                                                    88%
+                                                </h3>
+                                                <p class="text-white tw-text-sm">Average revenue growth for per
+                                                    successful clients</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <div
+                                                class="bg-main-two-600 tw-rounded-3xl tw-h-300-px d-flex flex-column justify-content-center align-items-center position-relative">
+                                                <img alt="" class="position-absolute tw-start-50 bottom-0 tw-translate-x-50"
+                                                    src="/assets/images/thumbs/model.png" />
+                                            </div>
+                                            <div
+                                                class="bg-white tw-rounded-lg common-shadow-one border-bottom border-3 border-main-600 tw-px-4 tw-py-2 d-flex align-items-center tw-gap-3 z-1 position-absolute top-0 tw-end-0 tw-mt-194-px">
+                                                <span
+                                                    class="bg-neutral-200 tw-w-10 tw-h-10 tw-rounded-xl d-flex justify-content-center align-items-center text-neutral-500">
+                                                    <i class="ph-bold ph-smiley"></i>
+                                                </span>
+                                                <div class="">
+                                                    <h6 class="">99.8%</h6>
+                                                    <p class="fw-medium tw-text-sm text-neutral-500">Client Satisfaction
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <div
+                                                class="bg-main-two-600 tw-rounded-3xl tw-p-8 text-center d-flex flex-column justify-content-center align-items-center tw-h-300-px">
+                                                <div class="circle-border d-inline-block">
+                                                    <svg class="radial-progress" data-percentage="78" viewbox="0 0 80 80">
+                                                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                                                        <circle class="complete" cx="40" cy="40" r="35"></circle>
+                                                        <text class="percentage" transform="matrix(0, 1, -1, 0, 80, 0)"
+                                                            x="50%" y="57%">78%</text>
+                                                    </svg>
+                                                </div>
+                                                <p class="text-white tw-text-sm tw-mt-5">Avarage revenew growth for per
+                                                    succesful clients</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <div
+                                                class="myContainer position-relative d-flex flex-column justify-content-center align-items-center h-100 tw-gap-705 overflow-hidden">
+                                                <span
+                                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-1 fw-semibold text-white bg-main-two-600 rounded-pill">Cybersecurity</span>
+                                                <span
+                                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-4 tw-py-1 fw-semibold text-white bg-pink rounded-pill">Infrastructure
+                                                    Management</span>
+                                                <span
+                                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-1 fw-semibold text-white bg-main-600 rounded-pill">Operational
+                                                    Excellence</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="common-shadow-three tw-rounded-40-px bg-white tw-ps-56-px tw-pe-6 tw-py-84-px">
+                                    <div class="tw-mb-14">
+                                        <span
+                                            class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">About
+                                            Us</span>
+                                        <h3 class="splitTextStyleOne fw-light tw-leading-104">
+                                            <span class="d-inline-block fw-semibold">Not</span>
+                                            <span class="d-inline-block">Another</span>
+                                            <span class="d-inline-block fw-semibold">Agency.</span>
+                                            <span class="d-inline-block"> A Growth </span>
+                                            <span class="d-inline-block fw-semibold"> Engineering Team</span>
+                                        </h3>
+                                    </div>
+                                    <div class="d-flex flex-column tw-gap-10">
+                                        <div class="d-flex align-items-start tw-gap-26-px animation-item" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                            <span class="tw-w-14 d-flex justify-content-center align-items-center">
+                                                <img alt="" class="animate__bounce" src="/assets/images/icons/about-icon1.svg" />
+                                            </span>
+                                            <div class="">
+                                                <h6 class="tw-mb-4">We Start With Data, Not Design</h6>
+                                                <p class="text-neutral-500 max-w-400-px">In today's competitive
+                                                    business, the demand for efficient cost-effective IT solutions has
+                                                    never been more critic.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-start tw-gap-26-px animation-item" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                            <span class="tw-w-14 d-flex justify-content-center align-items-center">
+                                                <img alt="" class="animate__bounce" src="/assets/images/icons/about-icon2.svg" />
+                                            </span>
+                                            <div class="">
+                                                <h6 class="tw-mb-4">Performance Over Promises</h6>
+                                                <p class="text-neutral-500 max-w-400-px">We track revenue, CAC, LTV, pipeline velocity and not just clicks and impressions.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-start tw-gap-26-px animation-item" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                            <span class="tw-w-14 d-flex justify-content-center align-items-center">
+                                                <img alt="" class="animate__bounce" src="/assets/images/icons/about-icon3.svg" />
+                                            </span>
+                                            <div class="">
+                                                <h6 class="tw-mb-4">Tech + Marketing Under One Roof.</h6>
+                                                <p class="text-neutral-500 max-w-400-px">Automation, AI, performance marketing, content, and tracking built as one integrated system.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================== About section End ============================= -->
+            <!-- =========================== Roadmap section start ========================== -->
+            <section class="py-120 section-bg-one">
+                <div class="container max-w-1440-px">
+                    <!-- what we do Start -->
+                    <div class="bg-main-two-600 tw-rounded-3xl overflow-hidden position-relative" id="roadmap-section">
+                        <div class="tw-ps-74-px tw-pe-6">
+                            <div class="d-flex flex-xl-nowrap flex-wrap tw-gap-6 gap-xl-5">
+                                <div class="max-w-432-px w-100 flex-shrink-0">
+                                    <div class="pt-120 tw-pb-9 position-relative">
+                                        <img alt="Arrow" class="position-absolute top-0 tw-end-0 animate__wobble__two"
+                                            src="/assets/images/shapes/curve-arrow-white.png" />
+                                        <span
+                                            class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
+                                            we do</span>
+                                        <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
+                                            <span class="d-inline-block fw-semibold">From Accurate Strategy to Scalable Revenue</span>
+                                        </h3>
+                                        <p class="splitTextStyleOne text-neutral-400 max-w-432-px">A structured, tech-driven roadmap that turns marketing into a predictable growth engine.</p>
+                                        <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
+                                            <a class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="800" data-block="button" href="/register">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">Get Started</span>
+                                            </a>
+                                            <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="800">
+                                                <div class="d-flex align-items-center tw-gap-4">
+                                                    <div class="d-flex align-items-center">
+                                                        <div
+                                                            class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative z-2">
+                                                            <img alt="Client Image" class="w-100 h-100 object-fit-cover"
+                                                                src="/assets/images/thumbs/client-img1.png" />
+                                                        </div>
+                                                        <div
+                                                            class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px z-1">
+                                                            <img alt="Client Image" class="w-100 h-100 object-fit-cover"
+                                                                src="/assets/images/thumbs/client-img2.png" />
+                                                        </div>
+                                                        <div
+                                                            class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px">
+                                                            <img alt="Client Image" class="w-100 h-100 object-fit-cover"
+                                                                src="/assets/images/thumbs/client-img3.png" />
+                                                        </div>
+                                                    </div>
+                                                    <span class="h5 counter text-white">2.3M+</span>
+                                                </div>
+                                                <p
+                                                    class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
+                                                    5000+ Client reviews</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="d-flex tw-gap-3 flex-wrap">
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-main-600 tw-mt-705">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">01</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon1.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                Deep Discovery</h6>
+                                        </div>
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-dark-deep tw--mt-8-px">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">02</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon2.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                UX <br /> Research</h6>
+                                        </div>
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-sky-deep tw-mt-505">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">03</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon3.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                Audience Mapping</h6>
+                                        </div>
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-dark-deep tw--mt-28-px">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">04</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon4.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                 Offer & Messaging Plan</h6>
+                                        </div>
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-dark-deep tw-mt-8">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">05</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon5.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                Channel<br /> Strategy</h6>
+                                        </div>
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-pink tw--mt-8-px">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">06</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon6.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                Performance Launch</h6>
+                                        </div>
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-main-600 tw-mt-4">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">07</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon7.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                Experimentation Loop</h6>
+                                        </div>
+                                        <div
+                                            class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-sky-deep tw--mt-28-px">
+                                            <span
+                                                class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">08</span>
+                                            <img alt="Icon" class="animate__swing" src="/assets/images/icons/roadmap-icon8.svg" />
+                                            <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                                Scale & Systemize</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tw-pb-9">
+                            <img alt="" class="w-100" src="/assets/images/shapes/curve-line.png" />
+                        </div>
+                    </div>
+                    <!-- what we do end -->
+                    <!-- Global Increase Start -->
+                    <div class="pt-120">
+                        <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-14 text-center">
+                            <span class="d-inline-block">Accurate </span>
+                            <span class="d-inline-block fw-semibold"> Results </span>
+                            <span class="d-inline-block">That Compound</span>
+                        </h3>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="tw-min-h-184-px bg-main-600 tw-py-4 tw-px-4 rounded-pill text-center max-w-388-px w-100"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <h3 class="h1 counter text-white tw-mb-4 fw-medium">3X – 5X</h3>
+                                <p class="text-white max-w-228-px mx-auto">Average ROAS Across Campaigns</p>
+                            </div>
+                            <div class="tw-min-h-184-px bg-main-600 tw-py-4 tw-px-4 rounded-pill max-w-514-px w-100 d-flex align-items-center tw-gap-505 justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <h3
+                                    class="h1 counter text-white tw-mb-4 fw-medium d-inline-flex align-items-center tw-gap-4">
+                                    <img alt="" src="/assets/images/icons/arrow-up-green.svg" />
+                                    40%
+                                </h3>
+                                <p class="text-white max-w-194-px">Reduction in Customer Acquisition Cost
+                                </p>
+                            </div>
+                            <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-388-px w-100 d-flex align-items-center tw-gap-505 justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
+                                    2x</h3>
+                                <div class="d-flex align-items-center tw-gap-2">
+                                    <span class="text-main-two-600 tw-text-2xl fw-semibold"></span>
+                                    <p class="text-main-two-600 max-w-194-px">Faster Funnel Conversions
+</p>
+                                </div>
+                            </div>
+                            <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-490-px w-100 d-flex align-items-center tw-gap-505 justify-content-center border border-main-50"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
+                                    25%</h3>
+                                <p class="text-main-two-600 max-w-194-px">Improvement in Retention Metrics</p>
+                            </div>
+                            <div class="tw-min-h-184-px bg-main-600 tw-py-4 tw-px-4 rounded-pill text-center max-w-288-px w-100 tw-mt-1 d-flex flex-column justify-content-center"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <h3 class="h1 counter text-white fw-medium">100%</h3>
+                                <p class="text-white max-w-228-px mx-auto">Transparent Performance Reporting</p>
+                            </div>
+                            <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-514-px w-100 d-flex align-items-center tw-gap-505 justify-content-center border border-main-50"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
+                                    1.3m</h3>
+                                <div class="d-flex align-items-center tw-gap-2">
+                                    <p class="text-main-two-600 max-w-194-px">Average revenue growth for per successful
+                                        clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Global Increase End -->
+                </div>
+            </section>
+            <!-- =========================== Roadmap section End ========================== -->
+            <!-- =============================== Offer section start ============================== -->
+            <section class="offer py-120 overflow-hidden">
+                <div class="container">
+                    <div class="tw-mb-13">
+                        <span
+                            class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">What
+                            We Offering</span>
+                        <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
+                            <div class="max-w-672-px">
+                                <h3 class="splitTextStyleOne tw-leading-104">
+                                    Our Core Growth Services
+                                </h3>
+                            </div>
+                            <p class="splitTextStyleOne text-neutral-500 max-w-500-px">
+                                In today's competitive business, the demand for efficient and
+                                cost-effective IT solutions has never been more critical.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-lg-4">
+                            <div class="row gy-4">
+                                <div class="col-lg-12 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="600">
+                                    <div
+                                        class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 h-100 tw-pt-15 bg-pink-dark tw-px-40-px tw-pb-84-px tw-duration-300">
+                                        <span class="tw-text-base fw-semibold tw-mb-2 text-pink">Performance Marketing</span>
+                                        <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
+                                            High-ROI paid campaigns across Google, Meta, LinkedIn, and emerging platforms
+                                        </h4>
+                                        <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                                            href="/service-details">
+                                            <i class="ph-bold ph-arrow-up-right"></i>
+                                        </a>
+                                        <img alt="Image" class="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                                            src="/assets/images/thumbs/offer-img1.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="600">
+                                    <div
+                                        class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 h-100 tw-pt-15 bg-pink-lighter tw-px-40-px tw-pb-136-px tw-duration-300">
+                                        <span class="tw-text-base fw-semibold tw-mb-2 text-pink">Logo Design</span>
+                                        <h4 class="splitTextStyleOne fw-light tw-mb-5 max-w-330-px">
+                                            <span class="d-inline-block fw-semibold">Turn traffic into customers with attractive logo designs.</span>
+                                        </h4>
+                                        <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-pink-light tw-text-2xl text-white hover--translate-y-1 active--translate-y-scale-9"
+                                            href="/service-details">
+                                            <i class="ph-bold ph-arrow-up-right"></i>
+                                        </a>
+                                        <img alt="Image" class="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                                            src="/assets/images/thumbs/offer-img2.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="600">
+                            <div
+                                class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 bg-main-50 tw-px-40-px tw-pb-84-px tw-duration-300 h-100">
+                                <span class="text-main-600 fw-semibold tw-mb-2">SEO & Organic Growth Systems
+</span>
+                                <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
+                                    Technical SEO and content engines that rank and convert.
+                                </h4>
+                                <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle text-white tw-text-2xl bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                                    href="/service-details">
+                                    <i class="ph-bold ph-arrow-up-right"></i>
+                                </a>
+                                <img alt="Image"
+                                    class="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1 tw-mx-4 tw-mb-12 d-md-block d-none"
+                                    src="/assets/images/thumbs/offer-img3.png" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row gy-4">
+                                <div class="col-lg-12 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="600">
+                                    <div
+                                        class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 h-100 bg-purple-light tw-px-40-px tw-pb-84-px tw-duration-300">
+                                        <span class="tw-text-base fw-semibold tw-mb-2 text-purple">Marketing Automation</span>
+                                        <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
+                                            Lead nurturing, CRM workflows, and AI-powered journeys.
+                                        </h4>
+                                        <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9"
+                                            href="/service-details">
+                                            <i class="ph-bold ph-arrow-up-right"></i>
+                                        </a>
+                                        <img alt="Image" class="tw-duration-300 position-absolute bottom-0 end-0 z-n1"
+                                            src="/assets/images/thumbs/offer-img4.png" />
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="600">
+                                    <div
+                                        class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 h-100 bg-paste-light tw-px-40-px tw-pb-136-px tw-duration-300">
+                                        <span class="tw-text-base fw-semibold tw-mb-2 text-pink">Website Design and Development</span>
+                                        <h4 class="splitTextStyleOne fw-light tw-mb-5 max-w-330-px">
+                                            <span class="d-inline-block fw-semibold">Design frameworks, link building, and scalable website ecosystems</span>
+                                        </h4>
+                                        <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-paste tw-text-2xl text-white hover--translate-y-1 active--translate-y-scale-9"
+                                            href="/service-details">
+                                            <i class="ph-bold ph-arrow-up-right"></i>
+                                        </a>
+                                        <img alt="Image" class="tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1"
+                                            src="/assets/images/thumbs/offer-img5.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =============================== Offer section end ============================== -->
+            <!-- =============================== xxxxx section start ============================== -->
+            <section class="xxxxx py-120 position-relative z-1 overflow-hidden">
+                <img alt="" class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" src="/assets/images/shapes/xxxxx-bg.png" />
+                <div class="container">
+                    <div class="tw-mb-8">
+                        <span
+                            class="tw-py-1 tw-px-705 bg-white text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">tech
+                            solution</span>
+                        <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
+                            <div class="max-w-672-px">
+                                <h3 class="splitTextStyleOne fw-light tw-leading-104 word-gap">
+    <span class="fw-semibold">Built</span>
+    <span>for</span>
+    <span class="fw-semibold">Founders</span>
+    <span class="fw-semibold">Who</span>
+    <span class="fw-semibold">Care</span>
+    <span class="fw-semibold">About</span>
+    <span class="fw-semibold">Numbers</span>
+</h3>
+                            </div>
+                            <a class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
+                                data-block="button" href="/register">
+                                <span class="button__flair"></span>
+                                <span class="button__label">Sign up Now</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-lg-5">
+                            <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15">
+                                We are the one stop solution you need to get your accurate data driven marketing in order.
+                            </p>
+                            <div class="accordion common-accordion accordion-border-left" id="accordionExample">
+                                <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header">
+                                        <button aria-controls="collapseTwo" aria-expanded="false"
+                                            class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
+                                            data-bs-target="#collapseTwo" data-bs-toggle="collapse"
+                                            data-img="/images/thumbs/xxxxx-thumb2.png" type="button">
+                                            Full-Funnel Ownership
+                                        </button>
+                                    </h5>
+                                    <div class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                        id="collapseTwo">
+                                        <div class="accordion-body p-0">
+                                            <p class="text-neutral-500">We don't stop at traffic or vanity metrics. We optimize the entire revenue journey for your team.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header">
+                                        <button aria-controls="collapseOne" aria-expanded="true"
+                                            class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
+                                            data-bs-target="#collapseOne" data-bs-toggle="collapse"
+                                            data-img="/images/thumbs/xxxxx-thumb1.png" type="button">
+                                            Transparent Analytics
+                                        </button>
+                                    </h5>
+                                    <div class="accordion-collapse collapse show" data-bs-parent="#accordionExample"
+                                        id="collapseOne">
+                                        <div class="accordion-body p-0">
+                                            <p class="text-neutral-500">You see what we see with real dashboards and real performance. This is the height of transparency and accuracy we aim for.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header">
+                                        <button aria-controls="collapseThree" aria-expanded="false"
+                                            class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
+                                            data-bs-target="#collapseThree" data-bs-toggle="collapse"
+                                            data-img="/images/thumbs/xxxxx-thumb3.png" type="button">
+                                            Agile Execution
+                                        </button>
+                                    </h5>
+                                    <div class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                        id="collapseThree">
+                                        <div class="accordion-body p-0">
+                                            <p class="text-neutral-500">No 6-month stagnation where your business gets delayed. We test, iterate, and scale fast for you to thrive.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header">
+                                        <button aria-controls="collapseFour" aria-expanded="false"
+                                            class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
+                                            data-bs-target="#collapseFour" data-bs-toggle="collapse"
+                                            data-img="/images/thumbs/xxxxx-thumb4.png" type="button">
+                                            Long-Term Partnership Mindset
+
+                                        </button>
+                                    </h5>
+                                    <div class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                                        id="collapseFour">
+                                        <div class="accordion-body p-0">
+                                            <p class="text-neutral-500">We build systems and not short-term spikes. This will help you maintain your top ranks in the long run.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="position-relative tw-pb-8 tw-ps-12 h-100">
+                                <div class="bg-white tw-p-205 tw-rounded-3xl h-100 tw-min-h-400-px">
+                                    <img alt="Image" class="w-100 h-100 object-fit-cover tw-rounded-2xl tw-duration-300"
+                                        id="xxxxxImage" src="/assets/images/thumbs/xxxxx-thumb1.png" />
+                                </div>
+                                <img alt="" class="position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px"
+                                    src="/assets/images/thumbs/xxxxx-img-1.png" />
+                                <img alt="" class="position-absolute bottom-0 tw-end-0 tw--me-32-px"
+                                    src="/assets/images/thumbs/xxxxx-img-2.png" />
+                                <img alt="" class="position-absolute bottom-0 tw-start-0 tw--ms-24-px"
+                                    src="/assets/images/thumbs/xxxxx-img-3.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =============================== xxxxx section end ============================== -->
+            <!-- =============================== Choose Us section start ============================ -->
+            <section class="py-120 overflow-hidden">
+                <div class="container">
+                    <div class="row gy-4 gx-5">
+                        <div class="col-lg-5 d-sm-block d-none">
+                            <div class="tw-ps-8 position-relative z-1 overflow-hidden" id="box-wrapper">
+                                <img alt="Image" class="w-100 h-100 object-fit-cover tw-rounded-3xl"
+                                    src="/assets/images/thumbs/choose-us-img.png" />
+                                <div
+                                    class="bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-start-0 top-0 tw-mt-705 z-1">
+                                    <img alt="" src="/assets/images/thumbs/choose-us-icon1.png" />
+                                </div>
+                                <div
+                                    class="bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-end-0 top-0 tw-mt-705 z-1 tw-me-14">
+                                    <img alt="" src="/assets/images/thumbs/choose-us-icon2.png" />
+                                </div>
+                                <div
+                                    class="bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-start-0 top-0 z-1 tw-mt-194-px tw-ms-148-px">
+                                    <img alt="" src="/assets/images/thumbs/choose-us-icon3.png" />
+                                </div>
+                                <div
+                                    class="bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-end-0 bottom-0 tw-me-90-px z-1 tw-mb-148-px">
+                                    <img alt="" src="/assets/images/thumbs/choose-us-icon4.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="ps-lg-5">
+                                <span
+                                    class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">Why
+                                    Choose Us</span>
+                                <div class="max-w-672-px">
+                                    <h3 class="fw-light tw-leading-104 cursor-big tw-mb-9 d-flex gap-2">
+                                        <span class="splitTextStyleOne d-inline-block fw-medium">
+                                            What We Do Differently (And Why It Matters)
+                                        </span>
+                                    </h3>
+                                    <p class="splitTextStyleOne text-neutral-600 max-w-500-px">We act like an in-house growth lab that is aligned to your business goals. We are focused on lasting growth and not just vanity metrics.</p>
+                                </div>
+                                <div class="tw-mt-10">
+                                    <div class="row gy-4">
+                                        <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="600">
+                                            <div
+                                                class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
+                                                <h6 class="tw-mb-2">Most agencies focus on campaigns.</h6>
+                                                <p class="text-neutral-500">We focus on infrastructure.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="600">
+                                            <div
+                                                class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
+                                                <h6 class="tw-mb-2">Most talk impressions.</h6>
+                                                <p class="text-neutral-500">We track revenue attribution.</p>
+                                            </div>
+                                            <div
+                                                class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300 tw-mt-6">
+                                                <h6 class="tw-mb-2">Most deliver reports.</h6>
+                                                <p class="text-neutral-500">We deliver insights and action plans.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center tw-gap-505 tw-mt-8" data-aos="fade-up"
+                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                    <h3 class="h1 text-main-600 d-inline-flex align-items-center tw-gap-4">1.3m</h3>
+                                    <p class="text-main-two-600 fw-medium max-w-228-px">Average revenue growth for per
+                                        successful clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =============================== Choose Us section end ============================== -->
+            <!-- ================================== Show-case section start ========================== -->
+            <section class="show-case py-120 bg-main-two-600 overflow-hidden">
+                <div class="max-w-602-px mx-auto text-center tw-mb-15">
+                    <span
+                        class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work
+                        Showcase</span>
+                    <h3 class="fw-light tw-leading-104 tw-mb-9 text-white">
+                        <span class="splitTextStyleOne d-inline-block fw-medium">
+                            <span class="fw-semibold">Case Studies </span>
+                            <span class="">&amp; Growth </span>
+                            <span class="fw-semibold">Stories</span>
+                        </span>
+                    </h3>
+                </div>
+                <div class="show-case-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="600">
+                            <div class="group-item">
+                                <div class="position-relative">
+                                    <a class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px"
+                                        href="/project-details">
+                                        <img alt="Image"
+                                            class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                            src="/assets/images/thumbs/show-case-img1.png" />
+                                    </a>
+                                    <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1"
+                                        href="/project-details">
+                                        <i class="ph-bold ph-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                                <div class="tw-mt-8">
+                                    <span class="tw-text-base fw-medium text-white">Performance Marketing</span>
+                                    <h5 class="text-white tw-mt-1">
+                                        <a class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1"
+                                            href="/project-details">Mobile
+                                            Application Development</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="600">
+                            <div class="group-item">
+                                <div class="position-relative">
+                                    <a class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px"
+                                        href="/project-details">
+                                        <img alt="Image"
+                                            class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                            src="/assets/images/thumbs/show-case-img2.png" />
+                                    </a>
+                                    <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1"
+                                        href="/project-details">
+                                        <i class="ph-bold ph-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                                <div class="tw-mt-8">
+                                    <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                    <h5 class="text-white tw-mt-1">
+                                        <a class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1"
+                                            href="/project-details">Cloud
+                                            Computing System</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="600">
+                            <div class="group-item">
+                                <div class="position-relative">
+                                    <a class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px"
+                                        href="/project-details">
+                                        <img alt="Image"
+                                            class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                            src="/assets/images/thumbs/show-case-img3.png" />
+                                    </a>
+                                    <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1"
+                                        href="/project-details">
+                                        <i class="ph-bold ph-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                                <div class="tw-mt-8">
+                                    <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                    <h5 class="text-white tw-mt-1">
+                                        <a class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1"
+                                            href="/project-details">Mobile
+                                            Application Development</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="600">
+                            <div class="group-item">
+                                <div class="position-relative">
+                                    <a class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px"
+                                        href="/project-details">
+                                        <img alt="Image"
+                                            class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                            src="/assets/images/thumbs/show-case-img4.png" />
+                                    </a>
+                                    <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1"
+                                        href="/project-details">
+                                        <i class="ph-bold ph-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                                <div class="tw-mt-8">
+                                    <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                    <h5 class="text-white tw-mt-1">
+                                        <a class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1"
+                                            href="/project-details">Creative
+                                            Complete Data Setup</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="600">
+                            <div class="group-item">
+                                <div class="position-relative">
+                                    <a class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px"
+                                        href="/project-details">
+                                        <img alt="Image"
+                                            class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                            src="/assets/images/thumbs/show-case-img3.png" />
+                                    </a>
+                                    <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1"
+                                        href="/project-details">
+                                        <i class="ph-bold ph-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                                <div class="tw-mt-8">
+                                    <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                    <h5 class="text-white tw-mt-1">
+                                        <a class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1"
+                                            href="/project-details">Mobile
+                                            Application Development</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="600">
+                            <div class="group-item">
+                                <div class="position-relative">
+                                    <a class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px"
+                                        href="/project-details">
+                                        <img alt="Image"
+                                            class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                            src="/assets/images/thumbs/show-case-img2.png" />
+                                    </a>
+                                    <a class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1"
+                                        href="/project-details">
+                                        <i class="ph-bold ph-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                                <div class="tw-mt-8">
+                                    <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                    <h5 class="text-white tw-mt-1">
+                                        <a class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1"
+                                            href="/project-details">Cloud
+                                            Computing System</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================================== Show-case section End ========================== -->
+            <!-- ============================ Testimonials section start ============================= -->
+            <section class="testimonials testimonials-rebuild py-120 position-relative z-1">
+                <div class="container">
+                    <div class="max-w-602-px mx-auto text-center tw-mb-12">
+                        <span class="testimonials-rebuild__eyebrow">Success Stories</span>
+                        <h3 class="testimonials-rebuild__title">
+                            What our <span>clients say</span> about us
+                        </h3>
+                    </div>
+                    <div class="testimonials-rebuild__track" aria-label="Client testimonials">
+                        <article class="testimonials-rebuild__card">
+                            <p class="testimonials-rebuild__rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="testimonials-rebuild__text">
+                                Their SEO team was great and helped us start from scratch. No matter what product you
+                                search for on any medium, our website and products turn up. The...
+                            </p>
+                            <div class="testimonials-rebuild__author">
+                                <img alt="Mr. Ansel Nishan" src="/assets/images/thumbs/testimonials-short-img1.png" />
+                                <div>
+                                    <h6>Mr. Ansel Nishan</h6>
+                                    <span>Happy Pique</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="testimonials-rebuild__card">
+                            <p class="testimonials-rebuild__rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="testimonials-rebuild__text">
+                                We wanted our business and website to pop up when people searched online. With good SEO
+                                and website optimization, the team helped us accurately rank high.
+                            </p>
+                            <div class="testimonials-rebuild__author">
+                                <img alt="Mr. Indrakumar" src="/assets/images/thumbs/testimonials-short-img3.png" />
+                                <div>
+                                    <h6>Mr. Indrakumar</h6>
+                                    <span>Lensman Production</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="testimonials-rebuild__card">
+                            <p class="testimonials-rebuild__rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="testimonials-rebuild__text">
+                                We needed our logo and brand name to be revisited as the initial ones were too long.
+                                Customers did not read our full names or pay attention to the...
+                            </p>
+                            <div class="testimonials-rebuild__author">
+                                <img alt="Mr. Yuvaraj" src="/assets/images/thumbs/testimonials-short-img2.png" />
+                                <div>
+                                    <h6>Mr. Yuvaraj</h6>
+                                    <span>RB Dance Court</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="testimonials-rebuild__card">
+                            <p class="testimonials-rebuild__rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="testimonials-rebuild__text">
+                                We have 2 hotel chains in Madurai, India and we found it hard to rank both of them
+                                online. Akkurate helped us optimize our Google My Business pages...
+                            </p>
+                            <div class="testimonials-rebuild__author">
+                                <img alt="Mr. Ravi Balakrishnan" src="/assets/images/thumbs/testimonials-short-img1.png" />
+                                <div>
+                                    <h6>Mr. Ravi Balakrishnan</h6>
+                                    <span>GRT Hotels &amp; Resorts</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="testimonials-rebuild__card">
+                            <p class="testimonials-rebuild__rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="testimonials-rebuild__text">
+                                Their SEO team was great and helped us start from scratch. No matter what product you
+                                search for on any medium, our website and products turn up. The...
+                            </p>
+                            <div class="testimonials-rebuild__author">
+                                <img alt="Mr. Ansel Nishan" src="/assets/images/thumbs/testimonials-short-img1.png" />
+                                <div>
+                                    <h6>Mr. Ansel Nishan</h6>
+                                    <span>Happy Pique</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="testimonials-rebuild__card">
+                            <p class="testimonials-rebuild__rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                            <p class="testimonials-rebuild__text">
+                                We wanted our business and website to pop up when people searched online. With good SEO
+                                and website optimization, the team helped us accurately rank high.
+                            </p>
+                            <div class="testimonials-rebuild__author">
+                                <img alt="Mr. Indrakumar" src="/assets/images/thumbs/testimonials-short-img3.png" />
+                                <div>
+                                    <h6>Mr. Indrakumar</h6>
+                                    <span>Lensman Production</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- ============================ Testimonials section End ============================= -->
+            <div class="position-relative z-1">
+                <img alt="Shape" class="position-absolute w-100 tw-start-0 bottom-0 z-n1"
+                    src="/assets/images/shapes/shape-image.png" />
+                <!-- ===================================== Blog section start ============================== -->
+                <section class="blog">
+                    <div class="container">
+                        <div class="bg-white common-shadow-five py-120 tw-px-4 px-md-5">
+                            <span class="line w-0 tw-h-2 bg-main-600 tw-mb-4"></span>
+                            <div class="d-flex align-items-center justify-content-between tw-mb-12">
+                                <h6 class="">Insights to help you do what you do better, faster and more profitably.
+                                </h6>
+                                <a class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                    data-block="button" href="/register">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Sign Up Now</span>
+                                </a>
+                            </div>
+                            <!-- Blog items start -->
+                            <div class="row gy-4">
+                                <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="200">
+                                    <div class="group-item">
+                                        <a class="w-100 h-100 overflow-hidden" href="/blog-details">
+                                            <img alt="Blog Image"
+                                                class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                                src="/assets/images/thumbs/blog-img1.png" />
+                                        </a>
+                                        <div class="tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap">
+                                            <span
+                                                class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">02
+                                                Apr 2021</span>
+                                            <span class="text-heading fw-medium tw-text-base">Comments (03)</span>
+                                        </div>
+                                        <h5 class="tw-mt-4">
+                                            <a class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1"
+                                                href="/blog-details">15
+                                                Best AI Apps for Android to Make Life Easier</a>
+                                        </h5>
+                                        <a class="text-main-600 fw-medium tw-text-lg hover--translate-y-1"
+                                            href="/blog-details">
+                                            Learn More
+                                            <span class="d-inline-flex tw-text-sm">
+                                                <i class="ph-bold ph-arrow-up-right"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    data-aos-duration="400">
+                                    <div class="group-item">
+                                        <a class="w-100 h-100 overflow-hidden" href="/blog-details">
+                                            <img alt="Blog Image"
+                                                class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300"
+                                                src="/assets/images/thumbs/blog-img2.png" />
+                                        </a>
+                                        <div class="tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap">
+                                            <span
+                                                class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">02
+                                                Apr 2021</span>
+                                            <span class="text-heading fw-medium tw-text-base">Comments (03)</span>
+                                        </div>
+                                        <h5 class="tw-mt-4">
+                                            <a class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1"
+                                                href="/blog-details">15
+                                                Best man-made intelligence Applications for Android to Make Life More
+                                                straightforward</a>
+                                        </h5>
+                                        <a class="text-main-600 fw-medium tw-text-lg hover--translate-y-1"
+                                            href="/blog-details">
+                                            Learn More
+                                            <span class="d-inline-flex tw-text-sm">
+                                                <i class="ph-bold ph-arrow-up-right"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Blog items end -->
+                        </div>
+                    </div>
+                </section>
+                <!-- ===================================== Blog section End ============================== -->
+                <!-- ============================ Cta section start ========================== -->
+                <section class="cta py-md-0 py-5">
+                    <div class="container">
+                        <div class="row gy-4 align-items-center">
+                            <div class="col-md-6 d-md-block d-none">
+                                <div class="pe-lg-2">
+                                    <div class="position-relative">
+                                        <img alt="Model" src="/assets/images/thumbs/model-img.png" />
+                                        <img alt="Arrow shape"
+                                            class="position-absolute top-0 tw-end-0 tw-mt-160-px animate__wobble__two"
+                                            src="/assets/images/shapes/arrow-right-curve.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="ps-lg-4 max-w-532-px">
+                                    <span
+                                        class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">Have
+                                        A Projects?</span>
+                                    <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-5 d-flex gap-2">
+                                        <span class="d-inline-block fw-semibold">
+                                            <span class="fw-normal">Ready to Turn </span>
+                                            Marketing Into a 
+                                            <span class="fw-normal"> Growth Engine?</span>
+                                        </span>
+                                    </h3>
+                                    <p class="text-neutral-600 tw-text-lg splitTextStyleOne">Leave your contacts and get
+                                        a free consultation from</p>
+                                    <a class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800"
+                                        data-block="button" href="/register">
+                                        <span class="button__flair"></span>
+                                        <span class="button__label">Get Started Today</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ============================ Cta section End ========================== -->
+            </div>
+            <!-- ========================== Footer Three Section Start ========================= -->
+            <section class="footer-three footer-akkurate-dark">
+                <div class="py-120">
+                    <div class="container">
+                        <div class="row gy-5 align-items-start">
+                            <div class="col-xl-4 col-lg-5 col-sm-6" data-aos="fade-up" data-aos-duration="600">
+                                <div class="pe-xl-4">
+                                    <img src="https://res.cloudinary.com/ddnxhn442/image/upload/v1772783827/Akkurate_white_text_rt7yoy.png" alt="Akkurate" style="height: 55px; width: auto; margin-bottom: 1rem;" />
+                                    <p class="text-heading fw-semibold tw-mb-6">Reach out to our team and we'll get back to you within a day.</p>
+                                    <div class="d-flex flex-column tw-gap-4">
+                                        <a class="text-heading fw-semibold hover-text-main-600" href="tel:+919841663161">+91 9841663161</a>
+                                        <a class="text-heading fw-semibold hover-text-main-600" href="mailto:growth@akkurate.in">growth@akkurate.in</a>
+                                        <p class="text-heading fw-semibold tw-mb-0">No. 63/44, 3rd Cross Street, Ranganadhapuram, West Tambaram, Chennai- 600 045</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="700">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Digital Marketing</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">GEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">AEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">SEO</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Google Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Meta Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Linkedin Ads</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Social Media Marketing</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Youtube Marketing</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Google My Business Page</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="800">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Website Development</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">App Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Website Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Web Application</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">CMS Development</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">E-Commerce Service</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Website Design</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="900">
+                                <div>
+                                    <h5 class="fw-medium tw-mb-8 splitTextStyleOne">Branding</h5>
+                                    <ul class="d-flex flex-column tw-gap-4">
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Logo Design</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Content Creation</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">UI/UX Design</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Motion Graphics</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Explainer Video</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Corporate Video</a></li>
+                                        <li><a class="hover-arrow-start text-neutral-600 hover-text-heading fw-bold" href="javascript:void(0)">Reels Making</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="border-top border-neutral-200 border-0 tw-py-8">
+                        <div class="container container-two">
+                            <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
+                                <p class="text-white text-line-1 fw-semibold mb-0">&copy; 2026 Akkurate. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ========================== Footer Three Section End ========================= -->
+        </div>
+    </div>
+
+    <?php include 'partials/javascript.php'; ?>
+
+    </body>
+</html>
+
+
+
