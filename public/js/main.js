@@ -28,6 +28,25 @@
     $(window).resize(toggleSubMenu);
     // ============== Mobile Nav Menu Dropdown Js End =======================
 
+    // ============== Services Nav: Click to navigate when dropdown is visible ==============
+    (function () {
+      var $servicesMegaParent = $(".services-mega-parent");
+      if (!$servicesMegaParent.length) return;
+
+      var isHovered = false;
+      $servicesMegaParent
+        .on("mouseenter", function () { isHovered = true; })
+        .on("mouseleave", function () { isHovered = false; });
+
+      $servicesMegaParent.find("> a.nav-menu__link").on("click", function (e) {
+        if (isHovered) {
+          e.preventDefault();
+          window.location.href = "/service-details";
+        }
+      });
+    })();
+    // ============== Services Nav click-to-navigate End ==============
+
     // ===================== Scroll Back to Top Js Start ======================
     var progressPath = document.querySelector(".progress-wrap path");
     var pathLength = progressPath.getTotalLength();
